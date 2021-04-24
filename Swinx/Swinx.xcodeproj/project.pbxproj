@@ -27,9 +27,9 @@
 		154B54F12634B4EF0063AE56 /* SquadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B54F02634B4EF0063AE56 /* SquadModel.swift */; };
 		406AEC362634A95100FCE112 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406AEC352634A95100FCE112 /* HomeViewController.swift */; };
 		406AEC402634A99400FCE112 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 406AEC3F2634A99400FCE112 /* HomeViewController.xib */; };
-		406AEC452634B33300FCE112 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406AEC432634B33300FCE112 /* CategoryCollectionViewCell.swift */; };
-		406AEC462634B33300FCE112 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 406AEC442634B33300FCE112 /* CategoryCollectionViewCell.xib */; };
-		40E850E92634C0C600D5D230 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E850E72634C0C600D5D230 /* MainTabBarViewController.swift */; };
+		40E850F42634C67000D5D230 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E850F32634C67000D5D230 /* CategoryCollectionViewCell.swift */; };
+		40E850F82634C6A400D5D230 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E850F72634C6A400D5D230 /* CategoryCollectionViewCell.xib */; };
+		40E850FE2634C6B700D5D230 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E850FD2634C6B700D5D230 /* MainTabBarViewController.swift */; };
 		93CBB698887D80D1C67C97E9 /* Pods_Swinx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9182BFC596AF82CDC78F34E /* Pods_Swinx.framework */; };
 		A7687938A336ADBAE80C31F5 /* Pods_SwinxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D794E4ABBCF374DFE16CD232 /* Pods_SwinxTests.framework */; };
 /* End PBXBuildFile section */
@@ -70,9 +70,9 @@
 		33394D337E4DCFAD676C5B48 /* Pods-SwinxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwinxTests.release.xcconfig"; path = "Target Support Files/Pods-SwinxTests/Pods-SwinxTests.release.xcconfig"; sourceTree = "<group>"; };
 		406AEC352634A95100FCE112 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		406AEC3F2634A99400FCE112 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		406AEC432634B33300FCE112 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
-		406AEC442634B33300FCE112 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
-		40E850E72634C0C600D5D230 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		40E850F32634C67000D5D230 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		40E850F72634C6A400D5D230 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		40E850FD2634C6B700D5D230 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		94AEE15C7E5E2969DD700250 /* Pods-Swinx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swinx.debug.xcconfig"; path = "Target Support Files/Pods-Swinx/Pods-Swinx.debug.xcconfig"; sourceTree = "<group>"; };
 		B158686BC7E441E20840B767 /* Pods-Swinx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swinx.release.xcconfig"; path = "Target Support Files/Pods-Swinx/Pods-Swinx.release.xcconfig"; sourceTree = "<group>"; };
 		D794E4ABBCF374DFE16CD232 /* Pods_SwinxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwinxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,8 +176,8 @@
 			isa = PBXGroup;
 			children = (
 				07F070E22634A5CB009F0578 /* View.swift */,
-				406AEC432634B33300FCE112 /* CategoryCollectionViewCell.swift */,
-				406AEC442634B33300FCE112 /* CategoryCollectionViewCell.xib */,
+				40E850F32634C67000D5D230 /* CategoryCollectionViewCell.swift */,
+				40E850F72634C6A400D5D230 /* CategoryCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -188,7 +188,7 @@
 				406AEC352634A95100FCE112 /* HomeViewController.swift */,
 				07F070B126346B6F009F0578 /* ViewController.swift */,
 				406AEC3F2634A99400FCE112 /* HomeViewController.xib */,
-				40E850E72634C0C600D5D230 /* MainTabBarViewController.swift */,
+				40E850FD2634C6B700D5D230 /* MainTabBarViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -375,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07F070F12634A74D009F0578 /* Functionary.json in Resources */,
+				40E850F82634C6A400D5D230 /* CategoryCollectionViewCell.xib in Resources */,
 				07F070BA26346B71009F0578 /* LaunchScreen.storyboard in Resources */,
 				07F070E12634A3AA009F0578 /* Squads.json in Resources */,
 				406AEC402634A99400FCE112 /* HomeViewController.xib in Resources */,
@@ -444,15 +445,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40E850FE2634C6B700D5D230 /* MainTabBarViewController.swift in Sources */,
 				07F070E52634A5D9009F0578 /* ViewModel.swift in Sources */,
+				40E850F42634C67000D5D230 /* CategoryCollectionViewCell.swift in Sources */,
 				07F070E32634A5CB009F0578 /* View.swift in Sources */,
 				07F070B226346B6F009F0578 /* ViewController.swift in Sources */,
 				154B54ED2634B0CC0063AE56 /* RTModel.swift in Sources */,
 				07F070E72634A5F6009F0578 /* ViewBase.swift in Sources */,
-				406AEC452634B33300FCE112 /* CategoryCollectionViewCell.swift in Sources */,
 				07F070EF2634A65A009F0578 /* FunctionaryModel.swift in Sources */,
 				07F070AE26346B6F009F0578 /* AppDelegate.swift in Sources */,
-				40E850E92634C0C600D5D230 /* MainTabBarViewController.swift in Sources */,
 				07F070EB2634A63C009F0578 /* FunctionaryView.swift in Sources */,
 				406AEC362634A95100FCE112 /* HomeViewController.swift in Sources */,
 				07F070E92634A62B009F0578 /* FunctionaryViewController.swift in Sources */,
