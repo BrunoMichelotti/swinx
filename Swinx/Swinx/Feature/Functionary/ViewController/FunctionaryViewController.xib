@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FunctionaryViewController" customModule="Swinx" customModuleProvider="target">
             <connections>
+                <outlet property="functionaryList" destination="KiS-9u-X4E" id="3yg-d5-DQu"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,14 +20,19 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KiS-9u-X4E">
-                    <rect key="frame" x="20" y="172" width="374" height="646"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KiS-9u-X4E">
+                    <rect key="frame" x="16" y="60" width="382" height="786"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KiS-9u-X4E" secondAttribute="trailing" constant="16" id="JjJ-9d-pgZ"/>
+                <constraint firstItem="KiS-9u-X4E" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="PdY-fc-law"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="KiS-9u-X4E" secondAttribute="bottom" constant="16" id="WOO-nM-6CT"/>
+                <constraint firstItem="KiS-9u-X4E" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="zwT-NZ-sND"/>
+            </constraints>
             <point key="canvasLocation" x="-39.130434782608695" y="87.723214285714278"/>
         </view>
     </objects>
