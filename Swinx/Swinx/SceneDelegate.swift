@@ -2,7 +2,8 @@
 //  SceneDelegate.swift
 //  Swinx
 //
-//  Created by Bruno Michelotti on 24/04/21.
+//  Created by Any Ambria on 24/04/21.
+//  Copyright © 2021 Swinx. All rights reserved.
 //
 
 import UIKit
@@ -23,7 +24,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.
         // Release any resources associated with this scene that can be re-created the next time the scene connects.
-        // The scene may re-connect later, as its session was not necessarily discarded (see `application:didDiscardSceneSessions` instead).
+        // The scene may re-connect later, as its session was not neccessarily discarded (see `application:didDiscardSceneSessions` instead).
     }
 
     func sceneDidBecomeActive(_ scene: UIScene) {

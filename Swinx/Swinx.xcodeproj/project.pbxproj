@@ -7,66 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1529ED60263468C90045350A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1529ED5F263468C90045350A /* AppDelegate.swift */; };
-		1529ED62263468C90045350A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1529ED61263468C90045350A /* SceneDelegate.swift */; };
-		1529ED64263468C90045350A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1529ED63263468C90045350A /* ViewController.swift */; };
-		1529ED67263468C90045350A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1529ED65263468C90045350A /* Main.storyboard */; };
-		1529ED69263468CA0045350A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1529ED68263468CA0045350A /* Assets.xcassets */; };
-		1529ED6C263468CA0045350A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1529ED6A263468CA0045350A /* LaunchScreen.storyboard */; };
-		1529ED77263468CA0045350A /* SwinxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1529ED76263468CA0045350A /* SwinxTests.swift */; };
-		1529ED82263468CA0045350A /* SwinxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1529ED81263468CA0045350A /* SwinxUITests.swift */; };
+		07F070AE26346B6F009F0578 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070AD26346B6F009F0578 /* AppDelegate.swift */; };
+		07F070B026346B6F009F0578 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070AF26346B6F009F0578 /* SceneDelegate.swift */; };
+		07F070B226346B6F009F0578 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070B126346B6F009F0578 /* ViewController.swift */; };
+		07F070B526346B6F009F0578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F070B326346B6F009F0578 /* Main.storyboard */; };
+		07F070B726346B71009F0578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F070B626346B71009F0578 /* Assets.xcassets */; };
+		07F070BA26346B71009F0578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F070B826346B71009F0578 /* LaunchScreen.storyboard */; };
+		07F070C526346B71009F0578 /* SwinxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070C426346B71009F0578 /* SwinxTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1529ED73263468CA0045350A /* PBXContainerItemProxy */ = {
+		07F070C126346B71009F0578 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1529ED54263468C90045350A /* Project object */;
+			containerPortal = 07F070A226346B6F009F0578 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1529ED5B263468C90045350A;
-			remoteInfo = Swinx;
-		};
-		1529ED7E263468CA0045350A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1529ED54263468C90045350A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1529ED5B263468C90045350A;
+			remoteGlobalIDString = 07F070A926346B6F009F0578;
 			remoteInfo = Swinx;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1529ED5C263468C90045350A /* Swinx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swinx.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1529ED5F263468C90045350A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1529ED61263468C90045350A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1529ED63263468C90045350A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1529ED66263468C90045350A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1529ED68263468CA0045350A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1529ED6B263468CA0045350A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1529ED6D263468CA0045350A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1529ED72263468CA0045350A /* SwinxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwinxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1529ED76263468CA0045350A /* SwinxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinxTests.swift; sourceTree = "<group>"; };
-		1529ED78263468CA0045350A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1529ED7D263468CA0045350A /* SwinxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwinxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1529ED81263468CA0045350A /* SwinxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinxUITests.swift; sourceTree = "<group>"; };
-		1529ED83263468CA0045350A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F070AA26346B6F009F0578 /* Swinx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swinx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F070AD26346B6F009F0578 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07F070AF26346B6F009F0578 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		07F070B126346B6F009F0578 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07F070B426346B6F009F0578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07F070B626346B71009F0578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07F070B926346B71009F0578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07F070BB26346B71009F0578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F070C026346B71009F0578 /* SwinxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwinxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F070C426346B71009F0578 /* SwinxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinxTests.swift; sourceTree = "<group>"; };
+		07F070C626346B71009F0578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1529ED59263468C90045350A /* Frameworks */ = {
+		07F070A726346B6F009F0578 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1529ED6F263468CA0045350A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1529ED7A263468CA0045350A /* Frameworks */ = {
+		07F070BD26346B71009F0578 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,68 +58,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1529ED53263468C90045350A = {
+		07F070A126346B6F009F0578 = {
 			isa = PBXGroup;
 			children = (
-				1529ED5E263468C90045350A /* Swinx */,
-				1529ED75263468CA0045350A /* SwinxTests */,
-				1529ED80263468CA0045350A /* SwinxUITests */,
-				1529ED5D263468C90045350A /* Products */,
+				07F070AC26346B6F009F0578 /* Swinx */,
+				07F070C326346B71009F0578 /* SwinxTests */,
+				07F070AB26346B6F009F0578 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1529ED5D263468C90045350A /* Products */ = {
+		07F070AB26346B6F009F0578 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1529ED5C263468C90045350A /* Swinx.app */,
-				1529ED72263468CA0045350A /* SwinxTests.xctest */,
-				1529ED7D263468CA0045350A /* SwinxUITests.xctest */,
+				07F070AA26346B6F009F0578 /* Swinx.app */,
+				07F070C026346B71009F0578 /* SwinxTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1529ED5E263468C90045350A /* Swinx */ = {
+		07F070AC26346B6F009F0578 /* Swinx */ = {
 			isa = PBXGroup;
 			children = (
-				1529ED5F263468C90045350A /* AppDelegate.swift */,
-				1529ED61263468C90045350A /* SceneDelegate.swift */,
-				1529ED63263468C90045350A /* ViewController.swift */,
-				1529ED65263468C90045350A /* Main.storyboard */,
-				1529ED68263468CA0045350A /* Assets.xcassets */,
-				1529ED6A263468CA0045350A /* LaunchScreen.storyboard */,
-				1529ED6D263468CA0045350A /* Info.plist */,
+				07F070AD26346B6F009F0578 /* AppDelegate.swift */,
+				07F070AF26346B6F009F0578 /* SceneDelegate.swift */,
+				07F070B126346B6F009F0578 /* ViewController.swift */,
+				07F070B326346B6F009F0578 /* Main.storyboard */,
+				07F070B626346B71009F0578 /* Assets.xcassets */,
+				07F070B826346B71009F0578 /* LaunchScreen.storyboard */,
+				07F070BB26346B71009F0578 /* Info.plist */,
 			);
 			path = Swinx;
 			sourceTree = "<group>";
 		};
-		1529ED75263468CA0045350A /* SwinxTests */ = {
+		07F070C326346B71009F0578 /* SwinxTests */ = {
 			isa = PBXGroup;
 			children = (
-				1529ED76263468CA0045350A /* SwinxTests.swift */,
-				1529ED78263468CA0045350A /* Info.plist */,
+				07F070C426346B71009F0578 /* SwinxTests.swift */,
+				07F070C626346B71009F0578 /* Info.plist */,
 			);
 			path = SwinxTests;
-			sourceTree = "<group>";
-		};
-		1529ED80263468CA0045350A /* SwinxUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1529ED81263468CA0045350A /* SwinxUITests.swift */,
-				1529ED83263468CA0045350A /* Info.plist */,
-			);
-			path = SwinxUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1529ED5B263468C90045350A /* Swinx */ = {
+		07F070A926346B6F009F0578 /* Swinx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1529ED86263468CA0045350A /* Build configuration list for PBXNativeTarget "Swinx" */;
+			buildConfigurationList = 07F070C926346B71009F0578 /* Build configuration list for PBXNativeTarget "Swinx" */;
 			buildPhases = (
-				1529ED58263468C90045350A /* Sources */,
-				1529ED59263468C90045350A /* Frameworks */,
-				1529ED5A263468C90045350A /* Resources */,
+				07F070A626346B6F009F0578 /* Sources */,
+				07F070A726346B6F009F0578 /* Frameworks */,
+				07F070A826346B6F009F0578 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,68 +116,47 @@
 			);
 			name = Swinx;
 			productName = Swinx;
-			productReference = 1529ED5C263468C90045350A /* Swinx.app */;
+			productReference = 07F070AA26346B6F009F0578 /* Swinx.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1529ED71263468CA0045350A /* SwinxTests */ = {
+		07F070BF26346B71009F0578 /* SwinxTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1529ED89263468CA0045350A /* Build configuration list for PBXNativeTarget "SwinxTests" */;
+			buildConfigurationList = 07F070CC26346B71009F0578 /* Build configuration list for PBXNativeTarget "SwinxTests" */;
 			buildPhases = (
-				1529ED6E263468CA0045350A /* Sources */,
-				1529ED6F263468CA0045350A /* Frameworks */,
-				1529ED70263468CA0045350A /* Resources */,
+				07F070BC26346B71009F0578 /* Sources */,
+				07F070BD26346B71009F0578 /* Frameworks */,
+				07F070BE26346B71009F0578 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1529ED74263468CA0045350A /* PBXTargetDependency */,
+				07F070C226346B71009F0578 /* PBXTargetDependency */,
 			);
 			name = SwinxTests;
 			productName = SwinxTests;
-			productReference = 1529ED72263468CA0045350A /* SwinxTests.xctest */;
+			productReference = 07F070C026346B71009F0578 /* SwinxTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		1529ED7C263468CA0045350A /* SwinxUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1529ED8C263468CA0045350A /* Build configuration list for PBXNativeTarget "SwinxUITests" */;
-			buildPhases = (
-				1529ED79263468CA0045350A /* Sources */,
-				1529ED7A263468CA0045350A /* Frameworks */,
-				1529ED7B263468CA0045350A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1529ED7F263468CA0045350A /* PBXTargetDependency */,
-			);
-			name = SwinxUITests;
-			productName = SwinxUITests;
-			productReference = 1529ED7D263468CA0045350A /* SwinxUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1529ED54263468C90045350A /* Project object */ = {
+		07F070A226346B6F009F0578 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Swinx;
 				TargetAttributes = {
-					1529ED5B263468C90045350A = {
-						CreatedOnToolsVersion = 12.4;
+					07F070A926346B6F009F0578 = {
+						CreatedOnToolsVersion = 11.3;
 					};
-					1529ED71263468CA0045350A = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 1529ED5B263468C90045350A;
-					};
-					1529ED7C263468CA0045350A = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 1529ED5B263468C90045350A;
+					07F070BF26346B71009F0578 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 07F070A926346B6F009F0578;
 					};
 				};
 			};
-			buildConfigurationList = 1529ED57263468C90045350A /* Build configuration list for PBXProject "Swinx" */;
+			buildConfigurationList = 07F070A526346B6F009F0578 /* Build configuration list for PBXProject "Swinx" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +164,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 1529ED53263468C90045350A;
-			productRefGroup = 1529ED5D263468C90045350A /* Products */;
+			mainGroup = 07F070A126346B6F009F0578;
+			productRefGroup = 07F070AB26346B6F009F0578 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1529ED5B263468C90045350A /* Swinx */,
-				1529ED71263468CA0045350A /* SwinxTests */,
-				1529ED7C263468CA0045350A /* SwinxUITests */,
+				07F070A926346B6F009F0578 /* Swinx */,
+				07F070BF26346B71009F0578 /* SwinxTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1529ED5A263468C90045350A /* Resources */ = {
+		07F070A826346B6F009F0578 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1529ED6C263468CA0045350A /* LaunchScreen.storyboard in Resources */,
-				1529ED69263468CA0045350A /* Assets.xcassets in Resources */,
-				1529ED67263468C90045350A /* Main.storyboard in Resources */,
+				07F070BA26346B71009F0578 /* LaunchScreen.storyboard in Resources */,
+				07F070B726346B71009F0578 /* Assets.xcassets in Resources */,
+				07F070B526346B6F009F0578 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1529ED70263468CA0045350A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1529ED7B263468CA0045350A /* Resources */ = {
+		07F070BE26346B71009F0578 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,60 +196,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1529ED58263468C90045350A /* Sources */ = {
+		07F070A626346B6F009F0578 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1529ED64263468C90045350A /* ViewController.swift in Sources */,
-				1529ED60263468C90045350A /* AppDelegate.swift in Sources */,
-				1529ED62263468C90045350A /* SceneDelegate.swift in Sources */,
+				07F070B226346B6F009F0578 /* ViewController.swift in Sources */,
+				07F070AE26346B6F009F0578 /* AppDelegate.swift in Sources */,
+				07F070B026346B6F009F0578 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1529ED6E263468CA0045350A /* Sources */ = {
+		07F070BC26346B71009F0578 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1529ED77263468CA0045350A /* SwinxTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1529ED79263468CA0045350A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1529ED82263468CA0045350A /* SwinxUITests.swift in Sources */,
+				07F070C526346B71009F0578 /* SwinxTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1529ED74263468CA0045350A /* PBXTargetDependency */ = {
+		07F070C226346B71009F0578 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1529ED5B263468C90045350A /* Swinx */;
-			targetProxy = 1529ED73263468CA0045350A /* PBXContainerItemProxy */;
-		};
-		1529ED7F263468CA0045350A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1529ED5B263468C90045350A /* Swinx */;
-			targetProxy = 1529ED7E263468CA0045350A /* PBXContainerItemProxy */;
+			target = 07F070A926346B6F009F0578 /* Swinx */;
+			targetProxy = 07F070C126346B71009F0578 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1529ED65263468C90045350A /* Main.storyboard */ = {
+		07F070B326346B6F009F0578 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1529ED66263468C90045350A /* Base */,
+				07F070B426346B6F009F0578 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1529ED6A263468CA0045350A /* LaunchScreen.storyboard */ = {
+		07F070B826346B71009F0578 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1529ED6B263468CA0045350A /* Base */,
+				07F070B926346B71009F0578 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -315,7 +244,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1529ED84263468CA0045350A /* Debug */ = {
+		07F070C726346B71009F0578 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -341,7 +270,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -366,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -376,7 +304,7 @@
 			};
 			name = Debug;
 		};
-		1529ED85263468CA0045350A /* Release */ = {
+		07F070C826346B71009F0578 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -402,7 +330,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -421,7 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -431,59 +358,54 @@
 			};
 			name = Release;
 		};
-		1529ED87263468CA0045350A /* Debug */ = {
+		07F070CA26346B71009F0578 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z8WPXXAYUF;
 				INFOPLIST_FILE = Swinx/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Swinx.Swinx;
+				PRODUCT_BUNDLE_IDENTIFIER = swinx.Swinx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1529ED88263468CA0045350A /* Release */ = {
+		07F070CB26346B71009F0578 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z8WPXXAYUF;
 				INFOPLIST_FILE = Swinx/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Swinx.Swinx;
+				PRODUCT_BUNDLE_IDENTIFIER = swinx.Swinx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		1529ED8A263468CA0045350A /* Debug */ = {
+		07F070CD26346B71009F0578 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z8WPXXAYUF;
 				INFOPLIST_FILE = SwinxTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Swinx.SwinxTests;
+				PRODUCT_BUNDLE_IDENTIFIER = swinx.SwinxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -491,108 +413,58 @@
 			};
 			name = Debug;
 		};
-		1529ED8B263468CA0045350A /* Release */ = {
+		07F070CE26346B71009F0578 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z8WPXXAYUF;
 				INFOPLIST_FILE = SwinxTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Swinx.SwinxTests;
+				PRODUCT_BUNDLE_IDENTIFIER = swinx.SwinxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swinx.app/Swinx";
-			};
-			name = Release;
-		};
-		1529ED8D263468CA0045350A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z8WPXXAYUF;
-				INFOPLIST_FILE = SwinxUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Swinx.SwinxUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Swinx;
-			};
-			name = Debug;
-		};
-		1529ED8E263468CA0045350A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z8WPXXAYUF;
-				INFOPLIST_FILE = SwinxUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Swinx.SwinxUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Swinx;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1529ED57263468C90045350A /* Build configuration list for PBXProject "Swinx" */ = {
+		07F070A526346B6F009F0578 /* Build configuration list for PBXProject "Swinx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1529ED84263468CA0045350A /* Debug */,
-				1529ED85263468CA0045350A /* Release */,
+				07F070C726346B71009F0578 /* Debug */,
+				07F070C826346B71009F0578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1529ED86263468CA0045350A /* Build configuration list for PBXNativeTarget "Swinx" */ = {
+		07F070C926346B71009F0578 /* Build configuration list for PBXNativeTarget "Swinx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1529ED87263468CA0045350A /* Debug */,
-				1529ED88263468CA0045350A /* Release */,
+				07F070CA26346B71009F0578 /* Debug */,
+				07F070CB26346B71009F0578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1529ED89263468CA0045350A /* Build configuration list for PBXNativeTarget "SwinxTests" */ = {
+		07F070CC26346B71009F0578 /* Build configuration list for PBXNativeTarget "SwinxTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1529ED8A263468CA0045350A /* Debug */,
-				1529ED8B263468CA0045350A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1529ED8C263468CA0045350A /* Build configuration list for PBXNativeTarget "SwinxUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1529ED8D263468CA0045350A /* Debug */,
-				1529ED8E263468CA0045350A /* Release */,
+				07F070CD26346B71009F0578 /* Debug */,
+				07F070CE26346B71009F0578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1529ED54263468C90045350A /* Project object */;
+	rootObject = 07F070A226346B6F009F0578 /* Project object */;
 }
