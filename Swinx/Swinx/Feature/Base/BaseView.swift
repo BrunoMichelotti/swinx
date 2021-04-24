@@ -31,6 +31,7 @@ class BaseView: UIView {
         guard let view = loadViewFromNib() else { return }
         view.frame = self.bounds
         setBorder()
+        tableView?.tableFooterView = UIView()
         self.addSubview(view)
     }
     
