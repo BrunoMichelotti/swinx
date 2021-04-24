@@ -91,9 +91,10 @@
 		07F070AC26346B6F009F0578 /* Swinx */ = {
 			isa = PBXGroup;
 			children = (
+				07F070DC2634A006009F0578 /* Util */,
+				07F070D026349CD1009F0578 /* Feature */,
 				07F070AD26346B6F009F0578 /* AppDelegate.swift */,
 				07F070AF26346B6F009F0578 /* SceneDelegate.swift */,
-				07F070B126346B6F009F0578 /* ViewController.swift */,
 				07F070B326346B6F009F0578 /* Main.storyboard */,
 				07F070B626346B71009F0578 /* Assets.xcassets */,
 				07F070B826346B71009F0578 /* LaunchScreen.storyboard */,
@@ -111,6 +112,101 @@
 			path = SwinxTests;
 			sourceTree = "<group>";
 		};
+		07F070D026349CD1009F0578 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				07F070D626349E9F009F0578 /* Functionary */,
+				07F070D526349E25009F0578 /* Base */,
+				07F070D126349CE6009F0578 /* Home */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		07F070D126349CE6009F0578 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				07F070D426349D01009F0578 /* ViewController */,
+				07F070D326349CFA009F0578 /* View */,
+				07F070D226349CEF009F0578 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		07F070D226349CEF009F0578 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		07F070D326349CFA009F0578 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07F070D426349D01009F0578 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07F070B126346B6F009F0578 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		07F070D526349E25009F0578 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		07F070D626349E9F009F0578 /* Functionary */ = {
+			isa = PBXGroup;
+			children = (
+				07F070DA26349EFA009F0578 /* Model */,
+				07F070D926349EF0009F0578 /* ViewModel */,
+				07F070D826349EE8009F0578 /* View */,
+				07F070D726349ED9009F0578 /* ViewController */,
+			);
+			path = Functionary;
+			sourceTree = "<group>";
+		};
+		07F070D726349ED9009F0578 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		07F070D826349EE8009F0578 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07F070D926349EF0009F0578 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		07F070DA26349EFA009F0578 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07F070DC2634A006009F0578 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		4461A5117C1FB6D1A0A20CE6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,7 +215,6 @@
 				DF735541B02B8F74E9B56675 /* Pods-SwinxTests.debug.xcconfig */,
 				33394D337E4DCFAD676C5B48 /* Pods-SwinxTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
