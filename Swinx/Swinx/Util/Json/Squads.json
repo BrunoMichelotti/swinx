@@ -31,27 +31,27 @@
         {
             "nome": "Governança",
             "descricao": "responsavel pela home PJ",
-            "po": "Pedro",
-            "team_lead": "Pedro1",
-            "tech_lead": "Pedro2",
+            "po": "Bruna",
+            "team_lead": "Silvia",
+            "tech_lead": "Will",
             "funcionarios": [ {
-                "nome": "gggggg",
+                "nome": "Bruno",
                 "cod_projeto_jira": "3333",
                 "pre": "12345",
-                "funcional": "ytyh",
-                "RACF": "rrrr",
-                "email": "yyyy@everis.com",
-                "squad_profissional": "gygwygywg",
+                "funcional": "033322222",
+                "RACF": "brunjj",
+                "email": "bruno@everis.com",
+                "squad_profissional": "Governança",
                 "cargo": "SAN1"
             },
             {
-                "nome": "gggggg",
+                "nome": "Bruno Rocca",
                 "cod_projeto_jira": "3333",
                 "pre": "12345",
-                "funcional": "ytyh",
-                "RACF": "rrrr",
-                "email": "yyyy@everis.com",
-                "squad_profissional": "gygwygywg",
+                "funcional": "vfgyy",
+                "RACF": "brunjjhh",
+                "email": "roccay@everis.com",
+                "squad_profissional": "Governança",
                 "cargo": "SAN1"
             }]
         }
