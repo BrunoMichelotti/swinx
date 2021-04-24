@@ -49,6 +49,7 @@
             </constraints>
             <connections>
                 <outlet property="bgCell" destination="BOD-PA-dSo" id="pnk-A8-3TP"/>
+                <outlet property="titleCell" destination="tRG-pY-ZwA" id="49J-2j-ZeK"/>
             </connections>
             <point key="canvasLocation" x="-197.10144927536234" y="116.51785714285714"/>
         </collectionViewCell>

@@ -11,6 +11,7 @@ import UIKit
 class CategoryCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var bgCell: UIView!
+    @IBOutlet weak var titleCell: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -19,6 +20,10 @@ class CategoryCollectionViewCell: UICollectionViewCell {
         bgCell.layer.shadowOpacity = 0.8
         bgCell.layer.shadowOffset = .init(width: 2, height: 2)
         bgCell.layer.shadowRadius = 5
+    }
+    
+    func initCell(title: String) {
+        titleCell.text = title
     }
 
 }
