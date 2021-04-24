@@ -13,8 +13,15 @@
 		07F070B726346B71009F0578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F070B626346B71009F0578 /* Assets.xcassets */; };
 		07F070BA26346B71009F0578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F070B826346B71009F0578 /* LaunchScreen.storyboard */; };
 		07F070C526346B71009F0578 /* SwinxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070C426346B71009F0578 /* SwinxTests.swift */; };
-		406AEC292634A6F900FCE112 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406AEC272634A6F900FCE112 /* HomeViewController.swift */; };
-		406AEC2A2634A6F900FCE112 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 406AEC282634A6F900FCE112 /* HomeViewController.xib */; };
+		07F070DF2634A1C0009F0578 /* RTs.json in Resources */ = {isa = PBXBuildFile; fileRef = 07F070DE2634A1BF009F0578 /* RTs.json */; };
+		07F070E12634A3AA009F0578 /* Squads.json in Resources */ = {isa = PBXBuildFile; fileRef = 07F070E02634A3AA009F0578 /* Squads.json */; };
+		07F070E32634A5CB009F0578 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070E22634A5CB009F0578 /* View.swift */; };
+		07F070E52634A5D9009F0578 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070E42634A5D9009F0578 /* ViewModel.swift */; };
+		07F070E72634A5F6009F0578 /* ViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070E62634A5F6009F0578 /* ViewBase.swift */; };
+		07F070E92634A62B009F0578 /* FunctionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070E82634A62B009F0578 /* FunctionaryViewController.swift */; };
+		07F070EB2634A63C009F0578 /* FunctionaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070EA2634A63C009F0578 /* FunctionaryView.swift */; };
+		07F070ED2634A649009F0578 /* FunctionaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070EC2634A649009F0578 /* FunctionaryViewModel.swift */; };
+		07F070EF2634A65A009F0578 /* FunctionaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070EE2634A65A009F0578 /* FunctionaryModel.swift */; };
 		93CBB698887D80D1C67C97E9 /* Pods_Swinx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9182BFC596AF82CDC78F34E /* Pods_Swinx.framework */; };
 		A7687938A336ADBAE80C31F5 /* Pods_SwinxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D794E4ABBCF374DFE16CD232 /* Pods_SwinxTests.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +47,15 @@
 		07F070C026346B71009F0578 /* SwinxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwinxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F070C426346B71009F0578 /* SwinxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinxTests.swift; sourceTree = "<group>"; };
 		07F070C626346B71009F0578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F070DE2634A1BF009F0578 /* RTs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RTs.json; sourceTree = "<group>"; };
+		07F070E02634A3AA009F0578 /* Squads.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Squads.json; sourceTree = "<group>"; };
+		07F070E22634A5CB009F0578 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		07F070E42634A5D9009F0578 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		07F070E62634A5F6009F0578 /* ViewBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBase.swift; sourceTree = "<group>"; };
+		07F070E82634A62B009F0578 /* FunctionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionaryViewController.swift; sourceTree = "<group>"; };
+		07F070EA2634A63C009F0578 /* FunctionaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionaryView.swift; sourceTree = "<group>"; };
+		07F070EC2634A649009F0578 /* FunctionaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionaryViewModel.swift; sourceTree = "<group>"; };
+		07F070EE2634A65A009F0578 /* FunctionaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionaryModel.swift; sourceTree = "<group>"; };
 		33394D337E4DCFAD676C5B48 /* Pods-SwinxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwinxTests.release.xcconfig"; path = "Target Support Files/Pods-SwinxTests/Pods-SwinxTests.release.xcconfig"; sourceTree = "<group>"; };
 		406AEC272634A6F900FCE112 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		406AEC282634A6F900FCE112 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
@@ -136,6 +152,7 @@
 		07F070D226349CEF009F0578 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				07F070E42634A5D9009F0578 /* ViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -143,6 +160,7 @@
 		07F070D326349CFA009F0578 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				07F070E22634A5CB009F0578 /* View.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -160,6 +178,7 @@
 		07F070D526349E25009F0578 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				07F070E62634A5F6009F0578 /* ViewBase.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -178,6 +197,7 @@
 		07F070D726349ED9009F0578 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				07F070E82634A62B009F0578 /* FunctionaryViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -185,6 +205,7 @@
 		07F070D826349EE8009F0578 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				07F070EA2634A63C009F0578 /* FunctionaryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,6 +213,7 @@
 		07F070D926349EF0009F0578 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				07F070EC2634A649009F0578 /* FunctionaryViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -199,6 +221,7 @@
 		07F070DA26349EFA009F0578 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				07F070EE2634A65A009F0578 /* FunctionaryModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -206,8 +229,18 @@
 		07F070DC2634A006009F0578 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				07F070DD2634A18E009F0578 /* Json */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		07F070DD2634A18E009F0578 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				07F070DE2634A1BF009F0578 /* RTs.json */,
+				07F070E02634A3AA009F0578 /* Squads.json */,
+			);
+			path = Json;
 			sourceTree = "<group>";
 		};
 		4461A5117C1FB6D1A0A20CE6 /* Pods */ = {
@@ -314,6 +347,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				07F070BA26346B71009F0578 /* LaunchScreen.storyboard in Resources */,
+				07F070E12634A3AA009F0578 /* Squads.json in Resources */,
+				07F070DF2634A1C0009F0578 /* RTs.json in Resources */,
 				07F070B726346B71009F0578 /* Assets.xcassets in Resources */,
 				406AEC2A2634A6F900FCE112 /* HomeViewController.xib in Resources */,
 			);
@@ -380,10 +415,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07F070E52634A5D9009F0578 /* ViewModel.swift in Sources */,
+				07F070E32634A5CB009F0578 /* View.swift in Sources */,
 				07F070B226346B6F009F0578 /* ViewController.swift in Sources */,
+				07F070E72634A5F6009F0578 /* ViewBase.swift in Sources */,
+				07F070EF2634A65A009F0578 /* FunctionaryModel.swift in Sources */,
 				07F070AE26346B6F009F0578 /* AppDelegate.swift in Sources */,
+				07F070EB2634A63C009F0578 /* FunctionaryView.swift in Sources */,
+				07F070E92634A62B009F0578 /* FunctionaryViewController.swift in Sources */,
 				07F070B026346B6F009F0578 /* SceneDelegate.swift in Sources */,
-				406AEC292634A6F900FCE112 /* HomeViewController.swift in Sources */,
+				07F070ED2634A649009F0578 /* FunctionaryViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

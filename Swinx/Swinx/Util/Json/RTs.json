@@ -1,0 +1,30 @@
+{
+    "data": {
+        "RTs": [ {
+            "nome": "Pagamentos",
+            "cordenador": "Ana Infante",
+            "descricao_rt": "RT responsavel por todas as areas de pagamentos",
+            "squad": [ {
+            "nome": "Transferencia",
+            "descricao": "squad responsavel pelo fluxo de transferencia e meus favorecidos",
+            "ltf": "Ronald",
+            "po": "Luiz",
+            "team_lead": "Daniela Ferraz",
+            "tech_lead": "Fabiana Harumi"
+        } ]
+        },
+        {
+            "nome": "Gover",
+            "cordenador": "Israel",
+            "squad": [ {
+            "nome": "Governança",
+            "descricao": "responsavel pela home PJ",
+            "ltf": "Ronald",
+            "po": "Bruna",
+            "team_lead": "Silvia",
+            "tech_lead": "Will"
+        } ]
+        }
+        ]
+    }
+}
