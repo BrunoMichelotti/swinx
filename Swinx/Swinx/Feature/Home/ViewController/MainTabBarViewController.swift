@@ -21,7 +21,9 @@ class MainTabBarViewController: UITabBarController {
     
     func setupVCS(){
         
-        viewControllers = [createNavController(for: HomeViewController(), title: "Categorias", image: UIImage(systemName: "house")!)
+        viewControllers = [createNavController(for: HomeViewController(), title: "Categorias", image: UIImage(systemName: "house")!),
+                           createNavController(for: FunctionaryViewController(), title: "Funcionários", image: UIImage(systemName: "person")!)
+                           
         ]
     }
 

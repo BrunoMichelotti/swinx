@@ -26,6 +26,7 @@
 		154B54F12634B4EF0063AE56 /* SquadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B54F02634B4EF0063AE56 /* SquadModel.swift */; };
 		154B55042634CA000063AE56 /* FunctionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B55022634CA000063AE56 /* FunctionaryViewController.swift */; };
 		154B55052634CA000063AE56 /* FunctionaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 154B55032634CA000063AE56 /* FunctionaryViewController.xib */; };
+		4042787D2634CD5E0090CDB6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4042787C2634CD5E0090CDB6 /* HomeViewModel.swift */; };
 		406AEC362634A95100FCE112 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406AEC352634A95100FCE112 /* HomeViewController.swift */; };
 		406AEC402634A99400FCE112 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 406AEC3F2634A99400FCE112 /* HomeViewController.xib */; };
 		40E850F42634C67000D5D230 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E850F32634C67000D5D230 /* CategoryCollectionViewCell.swift */; };
@@ -70,7 +71,7 @@
 		154B55022634CA000063AE56 /* FunctionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionaryViewController.swift; sourceTree = "<group>"; };
 		154B55032634CA000063AE56 /* FunctionaryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FunctionaryViewController.xib; sourceTree = "<group>"; };
 		33394D337E4DCFAD676C5B48 /* Pods-SwinxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwinxTests.release.xcconfig"; path = "Target Support Files/Pods-SwinxTests/Pods-SwinxTests.release.xcconfig"; sourceTree = "<group>"; };
-		404278762634CA800090CDB6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		4042787C2634CD5E0090CDB6 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		406AEC352634A95100FCE112 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		406AEC3F2634A99400FCE112 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		40E850F32634C67000D5D230 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -170,8 +171,8 @@
 		07F070D226349CEF009F0578 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				4042787C2634CD5E0090CDB6 /* HomeViewModel.swift */,
 				07F070E42634A5D9009F0578 /* ViewModel.swift */,
-				404278762634CA800090CDB6 /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -454,8 +455,8 @@
 				40E850FE2634C6B700D5D230 /* MainTabBarViewController.swift in Sources */,
 				07F070E52634A5D9009F0578 /* ViewModel.swift in Sources */,
 				154B55042634CA000063AE56 /* FunctionaryViewController.swift in Sources */,
+				4042787D2634CD5E0090CDB6 /* HomeViewModel.swift in Sources */,
 				40E850F42634C67000D5D230 /* CategoryCollectionViewCell.swift in Sources */,
-				404278772634CA800090CDB6 /* HomeViewModel.swift in Sources */,
 				07F070E32634A5CB009F0578 /* View.swift in Sources */,
 				07F070B226346B6F009F0578 /* ViewController.swift in Sources */,
 				154B54ED2634B0CC0063AE56 /* RTModel.swift in Sources */,
