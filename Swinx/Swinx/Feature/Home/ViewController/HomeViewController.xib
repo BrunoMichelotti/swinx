@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Swinx" customModuleProvider="target">
             <connections>
+                <outlet property="categoryCollectionView" destination="lsF-F0-eR1" id="hlS-71-0rX"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,14 +19,95 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="zo9-cO-8CZ">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QcH-fW-b6p">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yXC-3y-Gx8">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                                    <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                </imageView>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="caw-up-MES">
+                                    <rect key="frame" x="278" y="43" width="120" height="76"/>
+                                    <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="120" id="vjf-Sf-rct"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="caw-up-MES" secondAttribute="trailing" constant="16" id="8o6-ia-gJX"/>
+                                <constraint firstItem="yXC-3y-Gx8" firstAttribute="leading" secondItem="QcH-fW-b6p" secondAttribute="leading" id="DfQ-YP-qlR"/>
+                                <constraint firstItem="yXC-3y-Gx8" firstAttribute="centerY" secondItem="QcH-fW-b6p" secondAttribute="centerY" id="G3Y-t4-Iw4"/>
+                                <constraint firstAttribute="height" constant="200" id="Hb9-6t-T5h"/>
+                                <constraint firstAttribute="trailing" secondItem="yXC-3y-Gx8" secondAttribute="trailing" id="IS7-NB-D9n"/>
+                                <constraint firstAttribute="bottom" secondItem="caw-up-MES" secondAttribute="bottom" constant="81" id="ZT6-Ll-q7J"/>
+                                <constraint firstItem="yXC-3y-Gx8" firstAttribute="top" secondItem="QcH-fW-b6p" secondAttribute="top" id="ifP-Oy-cQK"/>
+                                <constraint firstItem="caw-up-MES" firstAttribute="top" secondItem="QcH-fW-b6p" secondAttribute="top" constant="43" id="jip-gS-oW3"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ee-69-Gj8">
+                            <rect key="frame" x="0.0" y="200" width="414" height="696"/>
+                            <subviews>
+                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="lsF-F0-eR1">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="696"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="16" minimumInteritemSpacing="16" sectionInsetReference="safeArea" id="ecq-mb-f5F">
+                                        <size key="itemSize" width="128" height="128"/>
+                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                        <inset key="sectionInset" minX="16" minY="16" maxX="16" maxY="16"/>
+                                    </collectionViewFlowLayout>
+                                </collectionView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="lsF-F0-eR1" secondAttribute="trailing" id="8Or-Hy-q4w"/>
+                                <constraint firstAttribute="trailing" secondItem="lsF-F0-eR1" secondAttribute="trailing" id="Hb0-g0-Ptc"/>
+                                <constraint firstItem="lsF-F0-eR1" firstAttribute="leading" secondItem="8ee-69-Gj8" secondAttribute="leading" id="I1P-Ku-DHm"/>
+                                <constraint firstItem="lsF-F0-eR1" firstAttribute="leading" secondItem="8ee-69-Gj8" secondAttribute="leading" id="PYH-h0-Rau"/>
+                                <constraint firstItem="lsF-F0-eR1" firstAttribute="top" secondItem="8ee-69-Gj8" secondAttribute="top" id="XaI-z0-0Ee"/>
+                                <constraint firstAttribute="bottom" secondItem="lsF-F0-eR1" secondAttribute="bottom" id="g3z-xK-pxd"/>
+                                <constraint firstItem="lsF-F0-eR1" firstAttribute="top" secondItem="8ee-69-Gj8" secondAttribute="top" id="nM7-PC-WYW"/>
+                                <constraint firstAttribute="bottom" secondItem="lsF-F0-eR1" secondAttribute="bottom" id="qOh-jA-DXw"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="QcH-fW-b6p" firstAttribute="leading" secondItem="zo9-cO-8CZ" secondAttribute="leading" id="YAs-lC-GOO"/>
+                        <constraint firstAttribute="trailing" secondItem="QcH-fW-b6p" secondAttribute="trailing" id="cba-lx-Vha"/>
+                        <constraint firstItem="8ee-69-Gj8" firstAttribute="leading" secondItem="zo9-cO-8CZ" secondAttribute="leading" id="iNl-e1-kK5"/>
+                        <constraint firstAttribute="trailing" secondItem="8ee-69-Gj8" secondAttribute="trailing" id="ylx-tc-B2z"/>
+                    </constraints>
+                </stackView>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemRedColor"/>
-            <point key="canvasLocation" x="-80" y="117"/>
+            <constraints>
+                <constraint firstItem="zo9-cO-8CZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="3Ov-gf-zDU"/>
+                <constraint firstItem="zo9-cO-8CZ" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="The-Qg-oZe"/>
+                <constraint firstItem="zo9-cO-8CZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="noi-fG-2w8"/>
+                <constraint firstAttribute="bottom" secondItem="zo9-cO-8CZ" secondAttribute="bottom" id="rYB-RL-8i3"/>
+            </constraints>
+            <point key="canvasLocation" x="-81.159420289855078" y="116.51785714285714"/>
         </view>
     </objects>
     <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
