@@ -1,0 +1,8 @@
+# Xcode
+#
+# gitignore Swift.gitignore
+
+xcuserdata/
+build/
+DerivedData/
+.DS_Store
