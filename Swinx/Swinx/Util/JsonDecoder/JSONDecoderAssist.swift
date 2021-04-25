@@ -23,18 +23,10 @@ public class JSONDecoderAssist : NSObject {
         return nil
     }
     
-    //MARK: TODO ajustas force
     static func parse<T>(type: T.Type ,jsonData: Data) throws -> T where T : Decodable {
-            do {
                 let decodedData = try JSONDecoder().decode(type,
                                                            from: jsonData)
-                print("Valores", decodedData)
                 return decodedData
-            } catch (let error){
-                print("decode error")
-                return error as! T
-            }
-        
     }
     
 }
