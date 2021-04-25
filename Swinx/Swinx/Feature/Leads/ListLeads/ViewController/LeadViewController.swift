@@ -47,5 +47,9 @@ extension LeadViewController: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let viewModel = DetailLeadsViewModel(id: indexPath.row, lead: self.viewModel.leads)
+        let vc = DetailLeadsViewController(viewModel: viewModel)
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }

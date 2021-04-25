@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+class RTViewModel {
+    var rtData: RTData?
+    
+    func fetchRt() {
+        if let data = JSONDecoderAssist.readLocalFile(forName: "RTs") {
+            do {
+                rtData =  try JSONDecoderAssist.parse(type: RTData.self, jsonData: data)
+            } catch {
+                print("erro")
+            }
+            
+        }
+    }
+}
