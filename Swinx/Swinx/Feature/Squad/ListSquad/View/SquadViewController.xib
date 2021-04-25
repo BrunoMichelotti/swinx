@@ -9,6 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SquadViewController" customModule="Swinx" customModuleProvider="target">
             <connections>
+                <outlet property="tableView" destination="CsZ-ic-CD2" id="533-gS-Jur"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
