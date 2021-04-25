@@ -8,17 +8,17 @@
 
 import Foundation
 
-class FunctionaryViewMode {
+class FunctionaryViewModel {
     
-    var functionaries : Functionary?
+    var functionaries: Functionary?
     
     
-    func fetchFunctionary(){
-        if let data = JSONDecoderAssist.readLocalFile(forName: "Functionary"){
-            do{
+    func fetchFunctionary() {
+        if let data = JSONDecoderAssist.readLocalFile(forName: "Functionary") {
+            do {
                 functionaries =  try JSONDecoderAssist.parse(type: Functionary.self, jsonData: data)
-            }catch{
-                print("deu erro")
+            }catch {
+                print("erro")
             }
             
         }
