@@ -9,16 +9,19 @@
 import UIKit
 
 class DetailFunctionaryTableViewCell: UITableViewCell {
-
+    
+    @IBOutlet weak var titleView: UIView?
+    @IBOutlet weak var titleLabel: UILabel?
+    @IBOutlet weak var valueLabel: UILabel?
+    @IBOutlet weak var secondTitleView: UIView?
+    @IBOutlet weak var secondTitleLabel: UILabel?
+    @IBOutlet weak var secondValueLabel: UILabel?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
+    func hiddenSecondView() {
+        secondTitleView?.isHidden = secondTitleLabel?.text?.isEmpty ?? true
+    }
 }

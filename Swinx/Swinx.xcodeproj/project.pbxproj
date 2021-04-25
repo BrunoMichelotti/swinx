@@ -25,6 +25,8 @@
 		07F070F82634CE7D009F0578 /* UILabelPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070F72634CE7D009F0578 /* UILabelPadding.swift */; };
 		07F070FC26358A90009F0578 /* DetailFunctionaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070FA26358A90009F0578 /* DetailFunctionaryTableViewCell.swift */; };
 		07F070FD26358A90009F0578 /* DetailFunctionaryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F070FB26358A90009F0578 /* DetailFunctionaryTableViewCell.xib */; };
+		07F0710026359743009F0578 /* DetailFunctionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070FE26359743009F0578 /* DetailFunctionaryViewController.swift */; };
+		07F0710126359743009F0578 /* DetailFunctionaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F070FF26359743009F0578 /* DetailFunctionaryViewController.xib */; };
 		154B54ED2634B0CC0063AE56 /* RTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B54EC2634B0CC0063AE56 /* RTModel.swift */; };
 		154B54F12634B4EF0063AE56 /* SquadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B54F02634B4EF0063AE56 /* SquadModel.swift */; };
 		154B55042634CA000063AE56 /* FunctionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B55022634CA000063AE56 /* FunctionaryViewController.swift */; };
@@ -72,6 +74,8 @@
 		07F070F72634CE7D009F0578 /* UILabelPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelPadding.swift; sourceTree = "<group>"; };
 		07F070FA26358A90009F0578 /* DetailFunctionaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFunctionaryTableViewCell.swift; sourceTree = "<group>"; };
 		07F070FB26358A90009F0578 /* DetailFunctionaryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailFunctionaryTableViewCell.xib; sourceTree = "<group>"; };
+		07F070FE26359743009F0578 /* DetailFunctionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFunctionaryViewController.swift; sourceTree = "<group>"; };
+		07F070FF26359743009F0578 /* DetailFunctionaryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailFunctionaryViewController.xib; sourceTree = "<group>"; };
 		154B54EC2634B0CC0063AE56 /* RTModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTModel.swift; sourceTree = "<group>"; };
 		154B54F02634B4EF0063AE56 /* SquadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadModel.swift; sourceTree = "<group>"; };
 		154B55022634CA000063AE56 /* FunctionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionaryViewController.swift; sourceTree = "<group>"; };
@@ -228,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				154B55022634CA000063AE56 /* FunctionaryViewController.swift */,
+				07F070FE26359743009F0578 /* DetailFunctionaryViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -236,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				154B55032634CA000063AE56 /* FunctionaryViewController.xib */,
+				07F070FF26359743009F0578 /* DetailFunctionaryViewController.xib */,
 				07F070F926358A40009F0578 /* ViewCell */,
 			);
 			path = View;
@@ -415,6 +421,7 @@
 				07F070DF2634A1C0009F0578 /* RTs.json in Resources */,
 				07F070B726346B71009F0578 /* Assets.xcassets in Resources */,
 				154B55052634CA000063AE56 /* FunctionaryViewController.xib in Resources */,
+				07F0710126359743009F0578 /* DetailFunctionaryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +502,7 @@
 				154B54F12634B4EF0063AE56 /* SquadModel.swift in Sources */,
 				07F070B026346B6F009F0578 /* SceneDelegate.swift in Sources */,
 				07F070F32634AF06009F0578 /* BaseView.swift in Sources */,
+				07F0710026359743009F0578 /* DetailFunctionaryViewController.swift in Sources */,
 				07F070ED2634A649009F0578 /* FunctionaryViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
