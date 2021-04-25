@@ -32,20 +32,23 @@ class DetailSquadViewController: UIViewController {
     }
     
     func setView() {
-//        let subDescription = "PO: \() \nTeam Lead: \() \nTech Lead: \()"
-        self.squadView?.setup(title: "teste", description: "gggggg", subTitle: "Tríade", subDescription: "ttttttt", list: "Funcionários everis")
+        self.squadView?.setup(title: viewModel.nameSquad ?? "-",
+                              description: viewModel.descriptionSquad ?? "-",
+                              subTitle: "Tríade",
+                              subDescription: viewModel.triade ?? "-",
+                              list: "Funcionários everis")
     }
 
 }
 
 extension DetailSquadViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return viewModel.functionary?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
-        cell.textLabel?.text = "hhh"
+        cell.textLabel?.text = viewModel.functionary?[indexPath.row].nome
         
         return cell
     }

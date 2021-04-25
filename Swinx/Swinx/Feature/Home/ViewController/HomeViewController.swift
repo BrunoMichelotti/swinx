@@ -48,7 +48,7 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         switch indexPath.row {
         case 0:
-            let vc = DetailSquadViewController(viewModel: DetailSquadViewModel())
+            let vc = SquadViewController(viewModel: SquadViewModel())
             self.navigationController?.pushViewController(vc, animated: true)
         default:
             print(viewModel.categories[indexPath.row])

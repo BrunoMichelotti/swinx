@@ -9,13 +9,13 @@
 import Foundation
 
 class SquadViewModel {
-    var squads: SquadDataClass?
+    var squads: SquadData?
     
-    func fetchFunctionary() {
+    func fetchSquad() {
         if let data = JSONDecoderAssist.readLocalFile(forName: "Squads") {
             do {
-                squads =  try JSONDecoderAssist.parse(type: SquadDataClass.self, jsonData: data)
-            }catch {
+                squads =  try JSONDecoderAssist.parse(type: SquadData.self, jsonData: data)
+            } catch {
                 print("erro")
             }
             

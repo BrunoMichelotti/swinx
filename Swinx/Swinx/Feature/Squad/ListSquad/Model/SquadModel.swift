@@ -8,17 +8,20 @@
 
 import Foundation
 
+struct SquadData: Codable {
+    let data: SquadDataClass?
+}
 // MARK: - DataClass
 struct SquadDataClass: Codable {
-    let squad: [Squad]
+    let squad: [Squad]?
 }
 
 // MARK: - Squad
 struct Squad: Codable {
-    let nome, descricao: String
+    let nome, descricao: String?
     let ltf: String?
-    let po, teamLead, techLead: String
-    let funcionarios: [Functionary]
+    let po, teamLead, techLead: String?
+    let funcionarios: [Funcionario]?
 
     enum CodingKeys: String, CodingKey {
         case nome, descricao
