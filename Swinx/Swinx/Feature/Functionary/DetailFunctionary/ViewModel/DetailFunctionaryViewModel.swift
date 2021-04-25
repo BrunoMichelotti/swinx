@@ -9,11 +9,10 @@
 import Foundation
 
 class DetailFunctionaryViewModel {
-//    var id: Int
     var functionary: Funcionario?
     var detailFunctionary: [(String, Any, String, Any)] = []
     
-    init(id: Int, functionary: Funcionario?) {
+    init(functionary: Funcionario?) {
         self.functionary = functionary
         getInfosFunctionary()
     }
@@ -31,7 +30,7 @@ class DetailFunctionaryViewModel {
         detailFunctionary.append(("TL", functionary.tl ?? "-", "", ""))
         detailFunctionary.append(("Ponto Focal", functionary.pontoFocal ?? "-", "", ""))
         
-        detailFunctionary.append(("Celular Corporativo", functionary.celularCorporativo ?? "-", "Telefone", functionary.telefone ?? ""))
+        detailFunctionary.append(("Celular Corporativo", functionary.celularCorporativo ?? "-", "Telefone", functionary.telefone ?? "-"))
         detailFunctionary.append(("E-mail", functionary.email ?? "-", "", ""))
         detailFunctionary.append(("Data Inicio", functionary.dataInicio ?? "-", "Data Fim", functionary.dataFim ?? "-"))
         
@@ -39,7 +38,7 @@ class DetailFunctionaryViewModel {
         detailFunctionary.append(("RACF", functionary.racf ?? "-", "Funcional", functionary.funcional ?? "-"))
         detailFunctionary.append(("E-mail Cliente", functionary.emailCliente ?? "-", "", ""))
         detailFunctionary.append(("Squad", functionary.squadProfissional ?? "-", "", ""))
-        detailFunctionary.append(("Código Projeto Jira", functionary.codProjetoJira ?? "-", "PRE", functionary.pre ?? ""))
+        detailFunctionary.append(("Código Projeto Jira", functionary.codProjetoJira ?? "-", "PRE", functionary.pre ?? "-"))
         
         detailFunctionary.append(("Tecnologia", functionary.tecnologia ?? "-", "Serviço", functionary.servico ?? "-"))
         detailFunctionary.append(("Shadow", functionary.shadow ?? "-", "", ""))
