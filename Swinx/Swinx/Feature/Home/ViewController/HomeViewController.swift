@@ -17,12 +17,15 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupCollectionView()
         
+        // Do any additional setup after loading the view.
+    }
+    
+    func setupCollectionView() {
         self.categoryCollectionView.dataSource = self
         self.categoryCollectionView.delegate = self
-        
         self.categoryCollectionView.register(UINib(nibName: "CategoryCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "categoryCell")
-        // Do any additional setup after loading the view.
     }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

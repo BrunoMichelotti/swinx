@@ -29,6 +29,7 @@ class FunctionaryViewController: UIViewController {
         super.viewDidLoad()
         self.functionaryList?.delegate = self
         self.functionaryList?.dataSource = self
+        self.functionaryList?.tableFooterView = UIView()
         viewModel.fetchFunctionary()
     }
 
@@ -46,5 +47,8 @@ extension FunctionaryViewController: UITableViewDelegate, UITableViewDataSource{
         return cell
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = DetailFunctionaryViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }

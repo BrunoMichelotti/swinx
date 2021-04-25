@@ -24,37 +24,33 @@
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QcH-fW-b6p">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
                             <subviews>
-                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yXC-3y-Gx8">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
-                                    <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ntt_data" translatesAutoresizingMaskIntoConstraints="NO" id="yXC-3y-Gx8">
+                                    <rect key="frame" x="14" y="68" width="295" height="44"/>
                                 </imageView>
-                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="caw-up-MES">
-                                    <rect key="frame" x="278" y="43" width="120" height="76"/>
-                                    <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="120" id="vjf-Sf-rct"/>
-                                    </constraints>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="itau-logo-1" translatesAutoresizingMaskIntoConstraints="NO" id="n6P-4x-To5">
+                                    <rect key="frame" x="324" y="52" width="74" height="75"/>
                                 </imageView>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <constraints>
-                                <constraint firstAttribute="trailing" secondItem="caw-up-MES" secondAttribute="trailing" constant="16" id="8o6-ia-gJX"/>
-                                <constraint firstItem="yXC-3y-Gx8" firstAttribute="leading" secondItem="QcH-fW-b6p" secondAttribute="leading" id="DfQ-YP-qlR"/>
-                                <constraint firstItem="yXC-3y-Gx8" firstAttribute="centerY" secondItem="QcH-fW-b6p" secondAttribute="centerY" id="G3Y-t4-Iw4"/>
-                                <constraint firstAttribute="height" constant="200" id="Hb9-6t-T5h"/>
-                                <constraint firstAttribute="trailing" secondItem="yXC-3y-Gx8" secondAttribute="trailing" id="IS7-NB-D9n"/>
-                                <constraint firstAttribute="bottom" secondItem="caw-up-MES" secondAttribute="bottom" constant="81" id="ZT6-Ll-q7J"/>
-                                <constraint firstItem="yXC-3y-Gx8" firstAttribute="top" secondItem="QcH-fW-b6p" secondAttribute="top" id="ifP-Oy-cQK"/>
-                                <constraint firstItem="caw-up-MES" firstAttribute="top" secondItem="QcH-fW-b6p" secondAttribute="top" constant="43" id="jip-gS-oW3"/>
+                                <constraint firstAttribute="trailing" secondItem="n6P-4x-To5" secondAttribute="trailing" constant="16" id="6yV-Oe-6Na"/>
+                                <constraint firstItem="yXC-3y-Gx8" firstAttribute="leading" secondItem="QcH-fW-b6p" secondAttribute="leading" constant="14" id="DfQ-YP-qlR"/>
+                                <constraint firstItem="yXC-3y-Gx8" firstAttribute="centerY" secondItem="QcH-fW-b6p" secondAttribute="centerY" constant="10" id="G3Y-t4-Iw4"/>
+                                <constraint firstAttribute="height" constant="160" id="Hb9-6t-T5h"/>
+                                <constraint firstAttribute="trailing" secondItem="yXC-3y-Gx8" secondAttribute="trailing" constant="105" id="IS7-NB-D9n"/>
+                                <constraint firstItem="n6P-4x-To5" firstAttribute="top" secondItem="QcH-fW-b6p" secondAttribute="top" constant="52" id="LLk-fZ-iIQ"/>
+                                <constraint firstAttribute="bottom" secondItem="n6P-4x-To5" secondAttribute="bottom" constant="33" id="M1T-Kg-23G"/>
+                                <constraint firstItem="yXC-3y-Gx8" firstAttribute="top" secondItem="QcH-fW-b6p" secondAttribute="top" constant="68" id="ifP-Oy-cQK"/>
+                                <constraint firstItem="n6P-4x-To5" firstAttribute="leading" secondItem="yXC-3y-Gx8" secondAttribute="trailing" constant="15" id="zBH-wM-dce"/>
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ee-69-Gj8">
-                            <rect key="frame" x="0.0" y="200" width="414" height="696"/>
+                            <rect key="frame" x="0.0" y="160" width="414" height="736"/>
                             <subviews>
                                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="lsF-F0-eR1">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="696"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="16" minimumInteritemSpacing="16" sectionInsetReference="safeArea" id="ecq-mb-f5F">
                                         <size key="itemSize" width="128" height="128"/>
@@ -97,17 +93,13 @@
         </view>
     </objects>
     <resources>
+        <image name="itau-logo-1" width="3500" height="3500"/>
+        <image name="ntt_data" width="5000" height="729"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemPurpleColor">
-            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
