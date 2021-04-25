@@ -31,6 +31,11 @@
 		07F071142635D176009F0578 /* SquadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F071132635D176009F0578 /* SquadViewModel.swift */; };
 		07F071182635D3D1009F0578 /* SquadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F071162635D3D1009F0578 /* SquadViewController.swift */; };
 		07F071192635D3D1009F0578 /* SquadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F071172635D3D1009F0578 /* SquadViewController.xib */; };
+		07F0711B2635EE10009F0578 /* Leads.json in Resources */ = {isa = PBXBuildFile; fileRef = 07F0711A2635EE10009F0578 /* Leads.json */; };
+		07F071202635EE9D009F0578 /* LeadsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0711F2635EE9D009F0578 /* LeadsModel.swift */; };
+		07F071262635F019009F0578 /* LeadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F071242635F019009F0578 /* LeadViewController.swift */; };
+		07F071272635F019009F0578 /* LeadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F071252635F019009F0578 /* LeadViewController.xib */; };
+		07F071292635F146009F0578 /* LeadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F071282635F146009F0578 /* LeadViewModel.swift */; };
 		153C0C002635E7C7002A9F50 /* RTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153C0BFE2635E7C7002A9F50 /* RTViewController.swift */; };
 		153C0C012635E7C7002A9F50 /* RTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153C0BFF2635E7C7002A9F50 /* RTViewController.xib */; };
 		153C0C072635E881002A9F50 /* RTViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153C0C062635E881002A9F50 /* RTViewModel.swift */; };
@@ -88,6 +93,11 @@
 		07F071132635D176009F0578 /* SquadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadViewModel.swift; sourceTree = "<group>"; };
 		07F071162635D3D1009F0578 /* SquadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadViewController.swift; sourceTree = "<group>"; };
 		07F071172635D3D1009F0578 /* SquadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SquadViewController.xib; sourceTree = "<group>"; };
+		07F0711A2635EE10009F0578 /* Leads.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Leads.json; sourceTree = "<group>"; };
+		07F0711F2635EE9D009F0578 /* LeadsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadsModel.swift; sourceTree = "<group>"; };
+		07F071242635F019009F0578 /* LeadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadViewController.swift; sourceTree = "<group>"; };
+		07F071252635F019009F0578 /* LeadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeadViewController.xib; sourceTree = "<group>"; };
+		07F071282635F146009F0578 /* LeadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadViewModel.swift; sourceTree = "<group>"; };
 		153C0BFE2635E7C7002A9F50 /* RTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTViewController.swift; sourceTree = "<group>"; };
 		153C0BFF2635E7C7002A9F50 /* RTViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RTViewController.xib; sourceTree = "<group>"; };
 		153C0C062635E881002A9F50 /* RTViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTViewModel.swift; sourceTree = "<group>"; };
@@ -176,6 +186,7 @@
 		07F070D026349CD1009F0578 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				07F0711C2635EE5B009F0578 /* Leads */,
 				152B19172635D71100E32628 /* RT */,
 				07F071152635D2B9009F0578 /* Squad */,
 				07F070D626349E9F009F0578 /* Functionary */,
@@ -289,6 +300,7 @@
 				07F070DE2634A1BF009F0578 /* RTs.json */,
 				07F070E02634A3AA009F0578 /* Squads.json */,
 				07F070F02634A74D009F0578 /* Functionary.json */,
+				07F0711A2635EE10009F0578 /* Leads.json */,
 			);
 			path = Json;
 			sourceTree = "<group>";
@@ -394,6 +406,57 @@
 				07F0710E2635D0F5009F0578 /* ListSquad */,
 			);
 			path = Squad;
+			sourceTree = "<group>";
+		};
+		07F0711C2635EE5B009F0578 /* Leads */ = {
+			isa = PBXGroup;
+			children = (
+				07F0711D2635EE69009F0578 /* ListLeads */,
+			);
+			path = Leads;
+			sourceTree = "<group>";
+		};
+		07F0711D2635EE69009F0578 /* ListLeads */ = {
+			isa = PBXGroup;
+			children = (
+				07F071232635EF86009F0578 /* View */,
+				07F071222635EF7D009F0578 /* ViewModel */,
+				07F071212635EF63009F0578 /* ViewController */,
+				07F0711E2635EE80009F0578 /* Model */,
+			);
+			path = ListLeads;
+			sourceTree = "<group>";
+		};
+		07F0711E2635EE80009F0578 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07F0711F2635EE9D009F0578 /* LeadsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07F071212635EF63009F0578 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07F071242635F019009F0578 /* LeadViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		07F071222635EF7D009F0578 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				07F071282635F146009F0578 /* LeadViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		07F071232635EF86009F0578 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07F071252635F019009F0578 /* LeadViewController.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		152B19172635D71100E32628 /* RT */ = {
@@ -606,6 +669,8 @@
 				07F070F52634AF16009F0578 /* BaseView.xib in Resources */,
 				07F071192635D3D1009F0578 /* SquadViewController.xib in Resources */,
 				07F070DF2634A1C0009F0578 /* RTs.json in Resources */,
+				07F0711B2635EE10009F0578 /* Leads.json in Resources */,
+				07F071272635F019009F0578 /* LeadViewController.xib in Resources */,
 				07F070B726346B71009F0578 /* Assets.xcassets in Resources */,
 				154B55052634CA000063AE56 /* FunctionaryViewController.xib in Resources */,
 				07F0710126359743009F0578 /* DetailFunctionaryViewController.xib in Resources */,
@@ -686,13 +751,16 @@
 				07F070AE26346B6F009F0578 /* AppDelegate.swift in Sources */,
 				07F070FC26358A90009F0578 /* DetailFunctionaryTableViewCell.swift in Sources */,
 				07F071032635B21E009F0578 /* DetailFunctionaryViewModel.swift in Sources */,
+				07F071202635EE9D009F0578 /* LeadsModel.swift in Sources */,
 				07F070F82634CE7D009F0578 /* UILabelPadding.swift in Sources */,
 				406AEC362634A95100FCE112 /* HomeViewController.swift in Sources */,
 				154B54F12634B4EF0063AE56 /* SquadModel.swift in Sources */,
 				07F070B026346B6F009F0578 /* SceneDelegate.swift in Sources */,
 				07F070F32634AF06009F0578 /* BaseView.swift in Sources */,
 				07F071142635D176009F0578 /* SquadViewModel.swift in Sources */,
+				07F071262635F019009F0578 /* LeadViewController.swift in Sources */,
 				153C0C072635E881002A9F50 /* RTViewModel.swift in Sources */,
+				07F071292635F146009F0578 /* LeadViewModel.swift in Sources */,
 				07F071182635D3D1009F0578 /* SquadViewController.swift in Sources */,
 				07F0710026359743009F0578 /* DetailFunctionaryViewController.swift in Sources */,
 				07F070ED2634A649009F0578 /* FunctionaryViewModel.swift in Sources */,
