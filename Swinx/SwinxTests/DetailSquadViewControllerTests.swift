@@ -11,7 +11,7 @@ import XCTest
 
 class DetailSquadViewControllerTests: XCTestCase {
     
-    var sut = DetailSquadViewController(viewModel: DetailSquadViewModel(id: 0, squad: nil))
+    var sut = DetailSquadViewController(viewModel: DetailSquadViewModel( squad: nil))
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

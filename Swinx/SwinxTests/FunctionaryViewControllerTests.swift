@@ -22,7 +22,6 @@ class FunctionaryViewControllerTests: XCTestCase {
     }
 
     func testExample() throws {
-        sut.viewDidLoad()
         XCTAssert(sut.viewModel != nil)
     }
 

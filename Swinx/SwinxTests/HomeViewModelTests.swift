@@ -23,7 +23,7 @@ class HomeViewModelTests: XCTestCase {
     }
 
     func testHomeViewModel() throws {
-        XCTAssert(sut.viewModel.categories == ["Squad","Banco","Leads"])
+        XCTAssert(sut.viewModel.categories == ["Squad","Rts","Leads"])
     }
     
     func testCollectionView() throws {

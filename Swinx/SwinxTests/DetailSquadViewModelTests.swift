@@ -24,9 +24,9 @@ class DetailSquadViewModelTests: XCTestCase {
 
     func testExample() throws {
         squad.fetchSquad()
-        var sut = DetailSquadViewModel(id: 0, squad: squad.squads)
+        var sut = DetailSquadViewModel(squad: squad.squads?.data?.squad?.first)
         
-        XCTAssert(sut.getInfosSquad(id: 0) != nil)
+        XCTAssert(sut.getInfosSquad != nil)
     }
 
     func testPerformanceExample() throws {
