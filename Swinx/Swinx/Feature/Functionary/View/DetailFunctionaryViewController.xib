@@ -18,8 +18,8 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mgV-AB-yd3">
-                    <rect key="frame" x="16" y="60" width="382" height="786"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mgV-AB-yd3">
+                    <rect key="frame" x="16" y="44" width="382" height="802"/>
                 </tableView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -27,7 +27,7 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="mgV-AB-yd3" secondAttribute="bottom" constant="16" id="1RG-7n-Wv8"/>
                 <constraint firstItem="mgV-AB-yd3" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="G53-Et-6fv"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="mgV-AB-yd3" secondAttribute="trailing" constant="16" id="PaM-eF-3Vz"/>
-                <constraint firstItem="mgV-AB-yd3" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="RKM-Zm-qvg"/>
+                <constraint firstItem="mgV-AB-yd3" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="RKM-Zm-qvg"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="139" y="124"/>
