@@ -9,6 +9,10 @@
 import Foundation
 
 // MARK: - DataClass
+struct RTData: Codable {
+    let data: RTDataClass?
+}
+
 struct RTDataClass: Codable {
     let rts: [Rt]
 
