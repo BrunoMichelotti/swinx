@@ -9,23 +9,23 @@
 import Foundation
 
 struct Functionary: Codable {
-    let data: FunctionaryDataClass
+    let data: FunctionaryDataClass?
 }
 
 // MARK: - DataClass
 struct FunctionaryDataClass: Codable {
-    let funcionarios: [Funcionario]
+    let funcionarios: [Funcionario]?
 }
 
 // MARK: - Funcionario
 struct Funcionario: Codable {
-    let nome, codProjetoJira, pre, funcional: String
-    let racf, email, squadProfissional, cargo: String
-    let dataInicio, dataFim, status, cpf: String
-    let rg, matriculaGeco, numeroMAC, celularCorporativo: String
-    let telefone, emailCliente, aniversario, shadow: String
-    let tecnologia, pontoFocal, tl, pl: String
-    let gerente, servico: String
+    let nome, codProjetoJira, pre, funcional: String?
+    let racf, email, squadProfissional, cargo: String?
+    let dataInicio, dataFim, status, cpf: String?
+    let rg, matriculaGeco, numeroMAC, celularCorporativo: String?
+    let telefone, emailCliente, aniversario, shadow: String?
+    let tecnologia, pontoFocal, tl, pl: String?
+    let gerente, servico: String?
 
     enum CodingKeys: String, CodingKey {
         case nome
