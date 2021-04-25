@@ -1,10 +1,10 @@
-# Programas necessarios para emular o projeto.
+# Programas necessários para emular o projeto.
 
 - Xcode versão -> 12
 - Swift versão -> 5.0
 - Cocoapods versão -> 1.10.1
-- MacOs versao -> Catalina 
-- IOS do Iphone emulado versao minima -> 13.2
+- MacOs versão -> Catalina 
+- IOS do Iphone emulado versao mínima -> 13.2
 
 # Passos para clonar e visualizar o projeto.
  Clone o projeto em seu Mac.
