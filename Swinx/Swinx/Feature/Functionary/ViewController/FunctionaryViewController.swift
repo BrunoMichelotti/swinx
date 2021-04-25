@@ -9,12 +9,28 @@
 import UIKit
 
 class FunctionaryViewController: UIViewController {
+    
+    var viewModel : FunctionaryViewMode
+    
     @IBOutlet weak var functionaryList: UITableView?
+    
+    init(viewModel: FunctionaryViewMode) {
+        self.viewModel = viewModel
+        super.init(nibName: nil, bundle: nil)
+    }
+   
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.functionaryList?.delegate = self
         self.functionaryList?.dataSource = self
+        self.functionaryList?.tableFooterView = UIView()
+        viewModel.fetchFunctionary()
     }
 
 }
@@ -22,7 +38,7 @@ class FunctionaryViewController: UIViewController {
 extension FunctionaryViewController: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return viewModel.functionaries?.data?.funcionarios?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -31,5 +47,8 @@ extension FunctionaryViewController: UITableViewDelegate, UITableViewDataSource{
         return cell
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = DetailFunctionaryViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
