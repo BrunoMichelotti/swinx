@@ -11,6 +11,7 @@ import Foundation
 class FunctionaryViewModel {
     
     var functionaries: Functionary?
+    var functionariesArray: [Funcionario] = []
     
     
     func fetchFunctionary() {
@@ -23,7 +24,18 @@ class FunctionaryViewModel {
             
         }
     }
-
+    
+    func fechtFunctionaryFilter(filter : String){
+        functionariesArray = []
+        guard let functionaries = functionaries?.data?.funcionarios else {return}
+        for funcionary in functionaries{
+            if let nome = funcionary.nome, nome.uppercased().contains(filter.uppercased()){
+                functionariesArray.append(funcionary)
+            }
+            
+        }
+    }
+    
 }
 
 

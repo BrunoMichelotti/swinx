@@ -12,6 +12,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FunctionaryViewController" customModule="Swinx" customModuleProvider="target">
             <connections>
                 <outlet property="functionaryList" destination="KiS-9u-X4E" id="3yg-d5-DQu"/>
+                <outlet property="searchBar" destination="1LS-no-HO1" id="PCA-06-xPW"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
