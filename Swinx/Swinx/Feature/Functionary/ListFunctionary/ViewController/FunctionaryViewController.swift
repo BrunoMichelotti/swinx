@@ -43,13 +43,13 @@ extension FunctionaryViewController: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
-        var functionaryData = viewModel.functionaries?.data?.funcionarios?[indexPath.row]
+        let functionaryData = viewModel.functionaries?.data?.funcionarios?[indexPath.row]
         cell.textLabel?.text = functionaryData?.nome
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let viewModel = DetailFunctionaryViewModel(id: indexPath.row, functionaries: self.viewModel.functionaries)
+        let viewModel = DetailFunctionaryViewModel(functionary: self.viewModel.functionaries?.data?.funcionarios?[indexPath.row])
         let vc = DetailFunctionaryViewController(viewModel: viewModel)
         self.navigationController?.pushViewController(vc, animated: true)
     }
