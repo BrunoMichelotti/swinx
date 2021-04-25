@@ -20,17 +20,24 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KiS-9u-X4E">
-                    <rect key="frame" x="16" y="60" width="382" height="786"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" bouncesZoom="NO" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KiS-9u-X4E">
+                    <rect key="frame" x="16" y="100" width="382" height="746"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
+                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="1LS-no-HO1">
+                    <rect key="frame" x="0.0" y="44" width="414" height="56"/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="1LS-no-HO1" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="GpG-HP-TJm"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="KiS-9u-X4E" secondAttribute="bottom" constant="16" id="Hdc-ec-bRg"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KiS-9u-X4E" secondAttribute="trailing" constant="16" id="JjJ-9d-pgZ"/>
-                <constraint firstItem="KiS-9u-X4E" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="PdY-fc-law"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="KiS-9u-X4E" secondAttribute="bottom" constant="16" id="WOO-nM-6CT"/>
+                <constraint firstItem="1LS-no-HO1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="gPN-QF-M8p"/>
+                <constraint firstItem="1LS-no-HO1" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="iQt-Pe-yZx"/>
+                <constraint firstItem="KiS-9u-X4E" firstAttribute="top" secondItem="1LS-no-HO1" secondAttribute="bottom" id="xXF-Mg-Odw"/>
                 <constraint firstItem="KiS-9u-X4E" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="zwT-NZ-sND"/>
             </constraints>
             <point key="canvasLocation" x="-39.130434782608695" y="87.723214285714278"/>
