@@ -1,0 +1,69 @@
+{
+    "data": {
+        "leads": [ {
+            "nome": "Daniela Paranhas",
+            "superiores": [{
+                "nome": "Thiago Miller Moreno",
+                "cargo": "gerente"
+            },
+            {
+                "nome": "Fabiano Fazolo",
+                "cargo": "Diretor"
+            }],
+            "descricao": "PL no projeto PJ do Itau",
+            "funcionarios": [ {
+                "nome": "Any",
+                "cod_projeto_jira": "3333",
+                "pre": "12345",
+                "funcional": "033311111",
+                "RACF": "anyert",
+                "email": "yyyy@everis.com",
+                "squad_profissional": "Transferencia",
+                "cargo": "SAN1"
+            },
+            {
+                "nome": "Bruno",
+                "cod_projeto_jira": "3333",
+                "pre": "12345",
+                "funcional": "033366666",
+                "RACF": "rrggtyrr",
+                "email": "aaa@everis.com",
+                "squad_profissional": "Transferencia",
+                "cargo": "SAN1"
+            }]
+        },
+        {
+            "nome": "Aline Molgado",
+            "descricao": "TL no projeto PJ do Itau",
+            "superiores": [{
+                "nome": "Thiago Miller Moreno",
+                "cargo": "gerente"
+            },
+            {
+                "nome": "Fabiano Fazolo",
+                "cargo": "Diretor"
+            }],
+            "funcionarios": [ {
+                "nome": "Pedro",
+                "cod_projeto_jira": "3333",
+                "pre": "12345",
+                "funcional": "033322222",
+                "RACF": "brunjj",
+                "email": "bruno@everis.com",
+                "squad_profissional": "Governança",
+                "cargo": "SAN1"
+            },
+            {
+                "nome": "Bruno Rocca",
+                "cod_projeto_jira": "3333",
+                "pre": "12345",
+                "funcional": "vfgyy",
+                "RACF": "brunjjhh",
+                "email": "roccay@everis.com",
+                "squad_profissional": "Governança",
+                "cargo": "SAN1"
+            }]
+        }
+        ]
+    }
+}
