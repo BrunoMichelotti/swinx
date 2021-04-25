@@ -52,5 +52,11 @@ extension DetailSquadViewController: UITableViewDelegate, UITableViewDataSource 
         
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let detailviewModel = DetailFunctionaryViewModel(functionary: self.viewModel.functionary?[indexPath.row])
+        let vc = DetailFunctionaryViewController(viewModel: detailviewModel)
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
    
 }

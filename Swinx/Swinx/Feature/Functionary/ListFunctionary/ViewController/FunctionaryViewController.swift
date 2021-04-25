@@ -49,7 +49,7 @@ extension FunctionaryViewController: UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let viewModel = DetailFunctionaryViewModel(id: indexPath.row, functionary: self.viewModel.functionaries?.data?.funcionarios?[indexPath.row])
+        let viewModel = DetailFunctionaryViewModel(functionary: self.viewModel.functionaries?.data?.funcionarios?[indexPath.row])
         let vc = DetailFunctionaryViewController(viewModel: viewModel)
         self.navigationController?.pushViewController(vc, animated: true)
     }
