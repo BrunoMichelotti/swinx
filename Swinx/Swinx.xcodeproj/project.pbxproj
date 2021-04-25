@@ -170,6 +170,7 @@
 		07F070D026349CD1009F0578 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				152B19172635D71100E32628 /* RT */,
 				07F071152635D2B9009F0578 /* Squad */,
 				07F070D626349E9F009F0578 /* Functionary */,
 				07F070D526349E25009F0578 /* Base */,
@@ -228,10 +229,8 @@
 		07F070D626349E9F009F0578 /* Functionary */ = {
 			isa = PBXGroup;
 			children = (
-				07F070DA26349EFA009F0578 /* Model */,
-				07F070D926349EF0009F0578 /* ViewModel */,
-				07F070D826349EE8009F0578 /* View */,
-				07F070D726349ED9009F0578 /* ViewController */,
+				153C0BF82635DC6A002A9F50 /* DetailFunctionary */,
+				153C0BF22635DBD4002A9F50 /* ListFunctionary */,
 			);
 			path = Functionary;
 			sourceTree = "<group>";
@@ -239,7 +238,6 @@
 		07F070D726349ED9009F0578 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				154B55022634CA000063AE56 /* FunctionaryViewController.swift */,
 				07F070FE26359743009F0578 /* DetailFunctionaryViewController.swift */,
 			);
 			path = ViewController;
@@ -248,7 +246,6 @@
 		07F070D826349EE8009F0578 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				154B55032634CA000063AE56 /* FunctionaryViewController.xib */,
 				07F070FF26359743009F0578 /* DetailFunctionaryViewController.xib */,
 				07F070F926358A40009F0578 /* ViewCell */,
 			);
@@ -258,7 +255,6 @@
 		07F070D926349EF0009F0578 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				07F070EC2634A649009F0578 /* FunctionaryViewModel.swift */,
 				07F071022635B21E009F0578 /* DetailFunctionaryViewModel.swift */,
 			);
 			path = ViewModel;
@@ -395,10 +391,70 @@
 			path = Squad;
 			sourceTree = "<group>";
 		};
-		154B54EB2634B07D0063AE56 /* Model */ = {
+		152B19172635D71100E32628 /* RT */ = {
+			isa = PBXGroup;
+			children = (
+				152B19182635D76500E32628 /* Model */,
+			);
+			path = RT;
+			sourceTree = "<group>";
+		};
+		152B19182635D76500E32628 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				154B54EC2634B0CC0063AE56 /* RTModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		153C0BF22635DBD4002A9F50 /* ListFunctionary */ = {
+			isa = PBXGroup;
+			children = (
+				153C0BF72635DC50002A9F50 /* ViewController */,
+				153C0BF42635DC02002A9F50 /* View */,
+				153C0BF32635DBEC002A9F50 /* ViewModel */,
+				07F070DA26349EFA009F0578 /* Model */,
+			);
+			path = ListFunctionary;
+			sourceTree = "<group>";
+		};
+		153C0BF32635DBEC002A9F50 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				07F070EC2634A649009F0578 /* FunctionaryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		153C0BF42635DC02002A9F50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				154B55032634CA000063AE56 /* FunctionaryViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		153C0BF72635DC50002A9F50 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				154B55022634CA000063AE56 /* FunctionaryViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		153C0BF82635DC6A002A9F50 /* DetailFunctionary */ = {
+			isa = PBXGroup;
+			children = (
+				07F070D926349EF0009F0578 /* ViewModel */,
+				07F070D726349ED9009F0578 /* ViewController */,
+				07F070D826349EE8009F0578 /* View */,
+			);
+			path = DetailFunctionary;
+			sourceTree = "<group>";
+		};
+		154B54EB2634B07D0063AE56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
