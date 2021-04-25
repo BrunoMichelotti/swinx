@@ -1,4 +1,3 @@
-{
    {
     "data": {
             "funcionarios": [ {
@@ -54,5 +53,4 @@
                 "servico": "Dev"
             }]
     }
-}
 }
