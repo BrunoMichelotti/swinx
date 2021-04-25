@@ -25,6 +25,12 @@
 		07F0710026359743009F0578 /* DetailFunctionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070FE26359743009F0578 /* DetailFunctionaryViewController.swift */; };
 		07F0710126359743009F0578 /* DetailFunctionaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F070FF26359743009F0578 /* DetailFunctionaryViewController.xib */; };
 		07F071032635B21E009F0578 /* DetailFunctionaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F071022635B21E009F0578 /* DetailFunctionaryViewModel.swift */; };
+		07F0710A2635CAAA009F0578 /* DetailSquadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F071082635CAAA009F0578 /* DetailSquadViewController.swift */; };
+		07F0710B2635CAAA009F0578 /* DetailSquadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F071092635CAAA009F0578 /* DetailSquadViewController.xib */; };
+		07F0710D2635CB03009F0578 /* DetailSquadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0710C2635CB03009F0578 /* DetailSquadViewModel.swift */; };
+		07F071142635D176009F0578 /* SquadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F071132635D176009F0578 /* SquadViewModel.swift */; };
+		07F071182635D3D1009F0578 /* SquadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F071162635D3D1009F0578 /* SquadViewController.swift */; };
+		07F071192635D3D1009F0578 /* SquadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F071172635D3D1009F0578 /* SquadViewController.xib */; };
 		154B54ED2634B0CC0063AE56 /* RTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B54EC2634B0CC0063AE56 /* RTModel.swift */; };
 		154B54F12634B4EF0063AE56 /* SquadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B54F02634B4EF0063AE56 /* SquadModel.swift */; };
 		154B55042634CA000063AE56 /* FunctionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B55022634CA000063AE56 /* FunctionaryViewController.swift */; };
@@ -73,6 +79,12 @@
 		07F070FE26359743009F0578 /* DetailFunctionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFunctionaryViewController.swift; sourceTree = "<group>"; };
 		07F070FF26359743009F0578 /* DetailFunctionaryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailFunctionaryViewController.xib; sourceTree = "<group>"; };
 		07F071022635B21E009F0578 /* DetailFunctionaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFunctionaryViewModel.swift; sourceTree = "<group>"; };
+		07F071082635CAAA009F0578 /* DetailSquadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSquadViewController.swift; sourceTree = "<group>"; };
+		07F071092635CAAA009F0578 /* DetailSquadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailSquadViewController.xib; sourceTree = "<group>"; };
+		07F0710C2635CB03009F0578 /* DetailSquadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSquadViewModel.swift; sourceTree = "<group>"; };
+		07F071132635D176009F0578 /* SquadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadViewModel.swift; sourceTree = "<group>"; };
+		07F071162635D3D1009F0578 /* SquadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadViewController.swift; sourceTree = "<group>"; };
+		07F071172635D3D1009F0578 /* SquadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SquadViewController.xib; sourceTree = "<group>"; };
 		154B54EC2634B0CC0063AE56 /* RTModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTModel.swift; sourceTree = "<group>"; };
 		154B54F02634B4EF0063AE56 /* SquadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadModel.swift; sourceTree = "<group>"; };
 		154B55022634CA000063AE56 /* FunctionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionaryViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +170,7 @@
 		07F070D026349CD1009F0578 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				07F071152635D2B9009F0578 /* Squad */,
 				07F070D626349E9F009F0578 /* Functionary */,
 				07F070D526349E25009F0578 /* Base */,
 				07F070D126349CE6009F0578 /* Home */,
@@ -296,11 +309,96 @@
 			path = ViewCell;
 			sourceTree = "<group>";
 		};
+		07F071042635CA46009F0578 /* DetailSquad */ = {
+			isa = PBXGroup;
+			children = (
+				07F071072635CA87009F0578 /* View */,
+				07F071062635CA77009F0578 /* ViewModel */,
+				07F071052635CA5F009F0578 /* ViewController */,
+			);
+			path = DetailSquad;
+			sourceTree = "<group>";
+		};
+		07F071052635CA5F009F0578 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07F071082635CAAA009F0578 /* DetailSquadViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		07F071062635CA77009F0578 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				07F0710C2635CB03009F0578 /* DetailSquadViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		07F071072635CA87009F0578 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07F071092635CAAA009F0578 /* DetailSquadViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07F0710E2635D0F5009F0578 /* ListSquad */ = {
+			isa = PBXGroup;
+			children = (
+				07F071122635D145009F0578 /* Model */,
+				07F071112635D133009F0578 /* ViewModel */,
+				07F071102635D11D009F0578 /* ViewController */,
+				07F0710F2635D114009F0578 /* View */,
+			);
+			path = ListSquad;
+			sourceTree = "<group>";
+		};
+		07F0710F2635D114009F0578 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07F071172635D3D1009F0578 /* SquadViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07F071102635D11D009F0578 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07F071162635D3D1009F0578 /* SquadViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		07F071112635D133009F0578 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				07F071132635D176009F0578 /* SquadViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		07F071122635D145009F0578 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				154B54F02634B4EF0063AE56 /* SquadModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07F071152635D2B9009F0578 /* Squad */ = {
+			isa = PBXGroup;
+			children = (
+				07F071042635CA46009F0578 /* DetailSquad */,
+				07F0710E2635D0F5009F0578 /* ListSquad */,
+			);
+			path = Squad;
+			sourceTree = "<group>";
+		};
 		154B54EB2634B07D0063AE56 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				154B54EC2634B0CC0063AE56 /* RTModel.swift */,
-				154B54F02634B4EF0063AE56 /* SquadModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -418,11 +516,13 @@
 			files = (
 				07F070F12634A74D009F0578 /* Functionary.json in Resources */,
 				07F070FD26358A90009F0578 /* DetailFunctionaryTableViewCell.xib in Resources */,
+				07F0710B2635CAAA009F0578 /* DetailSquadViewController.xib in Resources */,
 				40E850F82634C6A400D5D230 /* CategoryCollectionViewCell.xib in Resources */,
 				07F070BA26346B71009F0578 /* LaunchScreen.storyboard in Resources */,
 				07F070E12634A3AA009F0578 /* Squads.json in Resources */,
 				406AEC402634A99400FCE112 /* HomeViewController.xib in Resources */,
 				07F070F52634AF16009F0578 /* BaseView.xib in Resources */,
+				07F071192635D3D1009F0578 /* SquadViewController.xib in Resources */,
 				07F070DF2634A1C0009F0578 /* RTs.json in Resources */,
 				07F070B726346B71009F0578 /* Assets.xcassets in Resources */,
 				154B55052634CA000063AE56 /* FunctionaryViewController.xib in Resources */,
@@ -491,8 +591,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07F0710D2635CB03009F0578 /* DetailSquadViewModel.swift in Sources */,
 				40E850FE2634C6B700D5D230 /* MainTabBarViewController.swift in Sources */,
 				154EEF3A263594610067E100 /* JSONDecoderAssist.swift in Sources */,
+				07F0710A2635CAAA009F0578 /* DetailSquadViewController.swift in Sources */,
 				154B55042634CA000063AE56 /* FunctionaryViewController.swift in Sources */,
 				4042787D2634CD5E0090CDB6 /* HomeViewModel.swift in Sources */,
 				40E850F42634C67000D5D230 /* CategoryCollectionViewCell.swift in Sources */,
@@ -506,6 +608,8 @@
 				154B54F12634B4EF0063AE56 /* SquadModel.swift in Sources */,
 				07F070B026346B6F009F0578 /* SceneDelegate.swift in Sources */,
 				07F070F32634AF06009F0578 /* BaseView.swift in Sources */,
+				07F071142635D176009F0578 /* SquadViewModel.swift in Sources */,
+				07F071182635D3D1009F0578 /* SquadViewController.swift in Sources */,
 				07F0710026359743009F0578 /* DetailFunctionaryViewController.swift in Sources */,
 				07F070ED2634A649009F0578 /* FunctionaryViewModel.swift in Sources */,
 			);

@@ -27,29 +27,6 @@ class BaseView: UIView {
         commonInit()
     }
     
-    func commonInit() {
-        guard let view = loadViewFromNib() else { return }
-        view.frame = self.bounds
-        setBorder()
-        tableView?.tableFooterView = UIView()
-        self.addSubview(view)
-    }
-    
-    func setBorder() {
-        descriptionLabel?.layer.borderColor = UIColor.darkGray.cgColor
-        descriptionLabel?.layer.borderWidth = 2.0
-        descriptionLabel?.layer.cornerRadius = 8
-        
-        subDescriptionLabel?.layer.borderColor = UIColor.darkGray.cgColor
-        subDescriptionLabel?.layer.borderWidth = 2.0
-        subDescriptionLabel?.layer.cornerRadius = 8
-    }
-    
-    func loadViewFromNib() -> UIView? {
-        let nib = UINib(nibName: "BaseView", bundle: nil)
-        return nib.instantiate(withOwner: self, options: nil).first as? UIView
-    }
-    
     func setup(title: String, description: String,
                subTitle: String, subDescription: String, list: String) {
         
@@ -60,5 +37,28 @@ class BaseView: UIView {
         subDescriptionLabel?.text = subDescription
         
         listLabel?.text = list
+    }
+    
+    private func commonInit() {
+        guard let view = loadViewFromNib() else { return }
+        view.frame = self.bounds
+        setBorder()
+        tableView?.tableFooterView = UIView()
+        self.addSubview(view)
+    }
+    
+    private func setBorder() {
+        descriptionLabel?.layer.borderColor = UIColor.darkGray.cgColor
+        descriptionLabel?.layer.borderWidth = 2.0
+        descriptionLabel?.layer.cornerRadius = 8
+        
+        subDescriptionLabel?.layer.borderColor = UIColor.darkGray.cgColor
+        subDescriptionLabel?.layer.borderWidth = 2.0
+        subDescriptionLabel?.layer.cornerRadius = 8
+    }
+    
+    private func loadViewFromNib() -> UIView? {
+        let nib = UINib(nibName: "BaseView", bundle: nil)
+        return nib.instantiate(withOwner: self, options: nil).first as? UIView
     }
 }
