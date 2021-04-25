@@ -10,11 +10,11 @@ import UIKit
 
 class FunctionaryViewController: UIViewController {
     
-    var viewModel : FunctionaryViewMode
+    var viewModel : FunctionaryViewModel
     
     @IBOutlet weak var functionaryList: UITableView?
     
-    init(viewModel: FunctionaryViewMode) {
+    init(viewModel: FunctionaryViewModel) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }
@@ -48,7 +48,8 @@ extension FunctionaryViewController: UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let vc = DetailFunctionaryViewController()
+        let viewModel = DetailFunctionaryViewModel(id: indexPath.row, functionaries: self.viewModel.functionaries)
+        let vc = DetailFunctionaryViewController(viewModel: viewModel)
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
