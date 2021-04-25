@@ -36,6 +36,9 @@ class MainTabBarViewController: UITabBarController {
           navController.tabBarItem.title = title
           navController.tabBarItem.image = image
           navController.navigationBar.prefersLargeTitles = true
+        if title == "Funcionários" {
+          rootViewController.navigationItem.title = title
+        }
           return navController
       }
 
