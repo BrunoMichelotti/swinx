@@ -42,5 +42,9 @@ extension RTViewController : UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let detailviewModel = DetailRTViewModel(id: indexPath.row, rt: viewModel.rtData)
+        let vc = DetailRTViewController(viewModel: detailviewModel)
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }

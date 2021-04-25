@@ -9,27 +9,27 @@
 import Foundation
 
 class DetailSquadViewModel {
-    var squad: SquadData?
+    var squad: Squad?
     
     var nameSquad: String?
     var descriptionSquad: String?
     var triade: String?
     var functionary: [Funcionario]?
     
-    init(id: Int, squad: SquadData?) {
+    init(squad: Squad?) {
         self.squad = squad
-        getInfosSquad(id: id)
+        getInfosSquad()
     }
     
-    func getInfosSquad(id: Int) {
-        guard let squadData = squad?.data else { return }
-        let po = squadData.squad?[id].po ?? "-"
-        let teamLead = squadData.squad?[id].teamLead ?? "-"
-        let techLead = squadData.squad?[id].techLead ?? "-"
+    func getInfosSquad() {
+        guard let squadData = squad else { return }
+        let po = squadData.po ?? "-"
+        let teamLead = squadData.teamLead ?? "-"
+        let techLead = squadData.techLead ?? "-"
         
-        self.nameSquad = squadData.squad?[id].nome
-        self.descriptionSquad = squadData.squad?[id].descricao
+        self.nameSquad = squadData.nome
+        self.descriptionSquad = squadData.descricao
         self.triade = "PO: \(po) \nTeam Lead: \(teamLead) \nTech Lead: \(techLead)"
-        self.functionary = squadData.squad?[id].funcionarios
+        self.functionary = squadData.funcionarios
     }
 }

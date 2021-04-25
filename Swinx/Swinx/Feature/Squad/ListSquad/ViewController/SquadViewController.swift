@@ -46,7 +46,7 @@ extension SquadViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let viewModel = DetailSquadViewModel(id: indexPath.row, squad: self.viewModel.squads)
+        let viewModel = DetailSquadViewModel(squad: self.viewModel.squads?.data?.squad?[indexPath.row])
         let vc = DetailSquadViewController(viewModel: viewModel)
         self.navigationController?.pushViewController(vc, animated: true)
     }
