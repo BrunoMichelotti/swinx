@@ -52,6 +52,7 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
             self.navigationController?.pushViewController(vc, animated: true)
         case 1:
             let vc = RTViewController(viewModel: RTViewModel())
+            self.navigationController?.pushViewController(vc, animated: true)
         case 2:
             let vc = LeadViewController(viewModel: LeadViewModel())
             self.navigationController?.pushViewController(vc, animated: true)
