@@ -29,6 +29,7 @@ class FunctionaryViewController: UIViewController {
         super.viewDidLoad()
         self.functionaryList?.delegate = self
         self.functionaryList?.dataSource = self
+        self.functionaryList?.tableFooterView = UIView()
         viewModel.fetchFunctionary()
     }
 
