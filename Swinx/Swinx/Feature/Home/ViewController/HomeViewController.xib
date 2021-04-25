@@ -27,22 +27,22 @@
                             <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
                             <subviews>
                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="everis-1" translatesAutoresizingMaskIntoConstraints="NO" id="yXC-3y-Gx8">
-                                    <rect key="frame" x="163" y="38" width="221" height="129"/>
+                                    <rect key="frame" x="185" y="38" width="221" height="129"/>
                                 </imageView>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gestão Swinx" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LO4-8S-0cm">
-                                    <rect key="frame" x="16" y="62" width="170.5" height="35.5"/>
-                                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="27"/>
+                                    <rect key="frame" x="16" y="62" width="195.5" height="40.5"/>
+                                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="textColor" red="0.58101874590000002" green="0.68920922279999997" blue="0.17168843750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <constraints>
-                                <constraint firstItem="yXC-3y-Gx8" firstAttribute="leading" secondItem="QcH-fW-b6p" secondAttribute="leading" constant="163" id="DfQ-YP-qlR"/>
+                                <constraint firstItem="yXC-3y-Gx8" firstAttribute="leading" secondItem="QcH-fW-b6p" secondAttribute="leading" constant="185" id="DfQ-YP-qlR"/>
                                 <constraint firstItem="LO4-8S-0cm" firstAttribute="leading" secondItem="QcH-fW-b6p" secondAttribute="leading" constant="16" id="Dxj-TD-OZN"/>
                                 <constraint firstItem="yXC-3y-Gx8" firstAttribute="centerY" secondItem="QcH-fW-b6p" secondAttribute="centerY" constant="22.5" id="G3Y-t4-Iw4"/>
                                 <constraint firstAttribute="height" constant="160" id="Hb9-6t-T5h"/>
-                                <constraint firstAttribute="trailing" secondItem="yXC-3y-Gx8" secondAttribute="trailing" constant="30" id="IS7-NB-D9n"/>
+                                <constraint firstAttribute="trailing" secondItem="yXC-3y-Gx8" secondAttribute="trailing" constant="8" id="IS7-NB-D9n"/>
                                 <constraint firstItem="LO4-8S-0cm" firstAttribute="top" secondItem="QcH-fW-b6p" secondAttribute="top" constant="62" id="VPA-sM-yfA"/>
                                 <constraint firstItem="yXC-3y-Gx8" firstAttribute="top" secondItem="QcH-fW-b6p" secondAttribute="top" constant="38" id="ifP-Oy-cQK"/>
                             </constraints>

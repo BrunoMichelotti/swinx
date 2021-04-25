@@ -14,7 +14,7 @@ class MainTabBarViewController: UITabBarController {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         UITabBar.appearance().barTintColor = .systemBackground
-        tabBar.tintColor = .blue
+        tabBar.tintColor = UIColor(red: 0.62, green: 0.72, blue: 0.24, alpha: 1.00)
         tabBar.unselectedItemTintColor = .label
         tabBar.isTranslucent = false
         setupVCS()
@@ -23,7 +23,7 @@ class MainTabBarViewController: UITabBarController {
     
     func setupVCS(){
         
-        viewControllers = [createNavController(for: HomeViewController(), title: "Categorias", image: UIImage(systemName: "house")!),
+        viewControllers = [createNavController(for: HomeViewController(), title: "Início", image: UIImage(systemName: "house")!),
                            createNavController(for: FunctionaryViewController(viewModel: FunctionaryViewModel()), title: "Funcionários", image: UIImage(systemName: "person")!)
                            
         ]
