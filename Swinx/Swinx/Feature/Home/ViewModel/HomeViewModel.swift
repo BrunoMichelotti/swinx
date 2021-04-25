@@ -10,7 +10,7 @@ import Foundation
 
 class HomeViewModel {
     
-    let categories = ["Squad","Banco","Leads","TLF", "Devs Mobile","Devs Internet","QAs"]
+    let categories = ["Squad","Banco","Leads"]
     
 }
 

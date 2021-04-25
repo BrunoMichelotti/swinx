@@ -14,7 +14,9 @@ class MainTabBarViewController: UITabBarController {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         UITabBar.appearance().barTintColor = .systemBackground
-        tabBar.tintColor = .label
+        tabBar.tintColor = .blue
+        tabBar.unselectedItemTintColor = .label
+        tabBar.isTranslucent = false
         setupVCS()
     }
 
