@@ -37,8 +37,10 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
         
         if indexPath.row % 3 == 0 {
             return CGSize(width: screenSize.width/2.3, height:200)
-        } else {
+        } else if  indexPath.row % 3 == 1 {
             return CGSize(width: screenSize.width/2.3, height:150)
+        } else {
+            return CGSize(width: screenSize.width/1 - 32, height:150)
         }
         
     }

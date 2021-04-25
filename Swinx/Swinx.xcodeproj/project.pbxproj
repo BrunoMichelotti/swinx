@@ -9,14 +9,11 @@
 /* Begin PBXBuildFile section */
 		07F070AE26346B6F009F0578 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070AD26346B6F009F0578 /* AppDelegate.swift */; };
 		07F070B026346B6F009F0578 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070AF26346B6F009F0578 /* SceneDelegate.swift */; };
-		07F070B226346B6F009F0578 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070B126346B6F009F0578 /* ViewController.swift */; };
 		07F070B726346B71009F0578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F070B626346B71009F0578 /* Assets.xcassets */; };
 		07F070BA26346B71009F0578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F070B826346B71009F0578 /* LaunchScreen.storyboard */; };
 		07F070C526346B71009F0578 /* SwinxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070C426346B71009F0578 /* SwinxTests.swift */; };
 		07F070DF2634A1C0009F0578 /* RTs.json in Resources */ = {isa = PBXBuildFile; fileRef = 07F070DE2634A1BF009F0578 /* RTs.json */; };
 		07F070E12634A3AA009F0578 /* Squads.json in Resources */ = {isa = PBXBuildFile; fileRef = 07F070E02634A3AA009F0578 /* Squads.json */; };
-		07F070E32634A5CB009F0578 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070E22634A5CB009F0578 /* View.swift */; };
-		07F070E52634A5D9009F0578 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070E42634A5D9009F0578 /* ViewModel.swift */; };
 		07F070ED2634A649009F0578 /* FunctionaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070EC2634A649009F0578 /* FunctionaryViewModel.swift */; };
 		07F070EF2634A65A009F0578 /* FunctionaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F070EE2634A65A009F0578 /* FunctionaryModel.swift */; };
 		07F070F12634A74D009F0578 /* Functionary.json in Resources */ = {isa = PBXBuildFile; fileRef = 07F070F02634A74D009F0578 /* Functionary.json */; };
@@ -57,7 +54,6 @@
 		07F070AA26346B6F009F0578 /* Swinx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swinx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F070AD26346B6F009F0578 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07F070AF26346B6F009F0578 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		07F070B126346B6F009F0578 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		07F070B626346B71009F0578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07F070B926346B71009F0578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07F070BB26346B71009F0578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,8 +62,6 @@
 		07F070C626346B71009F0578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07F070DE2634A1BF009F0578 /* RTs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RTs.json; sourceTree = "<group>"; };
 		07F070E02634A3AA009F0578 /* Squads.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Squads.json; sourceTree = "<group>"; };
-		07F070E22634A5CB009F0578 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		07F070E42634A5D9009F0578 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		07F070EC2634A649009F0578 /* FunctionaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionaryViewModel.swift; sourceTree = "<group>"; };
 		07F070EE2634A65A009F0578 /* FunctionaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionaryModel.swift; sourceTree = "<group>"; };
 		07F070F02634A74D009F0578 /* Functionary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Functionary.json; sourceTree = "<group>"; };
@@ -186,7 +180,6 @@
 			isa = PBXGroup;
 			children = (
 				4042787C2634CD5E0090CDB6 /* HomeViewModel.swift */,
-				07F070E42634A5D9009F0578 /* ViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -194,7 +187,6 @@
 		07F070D326349CFA009F0578 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				07F070E22634A5CB009F0578 /* View.swift */,
 				40E850F32634C67000D5D230 /* CategoryCollectionViewCell.swift */,
 				40E850F72634C6A400D5D230 /* CategoryCollectionViewCell.xib */,
 			);
@@ -205,7 +197,6 @@
 			isa = PBXGroup;
 			children = (
 				406AEC352634A95100FCE112 /* HomeViewController.swift */,
-				07F070B126346B6F009F0578 /* ViewController.swift */,
 				406AEC3F2634A99400FCE112 /* HomeViewController.xib */,
 				40E850FD2634C6B700D5D230 /* MainTabBarViewController.swift */,
 			);
@@ -501,13 +492,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				40E850FE2634C6B700D5D230 /* MainTabBarViewController.swift in Sources */,
-				07F070E52634A5D9009F0578 /* ViewModel.swift in Sources */,
 				154EEF3A263594610067E100 /* JSONDecoderAssist.swift in Sources */,
 				154B55042634CA000063AE56 /* FunctionaryViewController.swift in Sources */,
 				4042787D2634CD5E0090CDB6 /* HomeViewModel.swift in Sources */,
 				40E850F42634C67000D5D230 /* CategoryCollectionViewCell.swift in Sources */,
-				07F070E32634A5CB009F0578 /* View.swift in Sources */,
-				07F070B226346B6F009F0578 /* ViewController.swift in Sources */,
 				154B54ED2634B0CC0063AE56 /* RTModel.swift in Sources */,
 				07F070EF2634A65A009F0578 /* FunctionaryModel.swift in Sources */,
 				07F070AE26346B6F009F0578 /* AppDelegate.swift in Sources */,
