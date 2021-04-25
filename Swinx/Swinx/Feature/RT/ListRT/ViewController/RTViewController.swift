@@ -40,15 +40,11 @@ extension RTViewController : UITableViewDelegate, UITableViewDataSource {
         let cell = UITableViewCell()
         cell.textLabel?.text = viewModel.rtData?.data?.rts[indexPath.row].nome
         return cell
-    
-//        let viewModel = DetailFunctionaryViewModel(functionary: self.viewModel.functionaries?.data?.funcionarios?[indexPath.row])
-//        let vc = DetailFunctionaryViewController(viewModel: viewModel)
-//        self.navigationController?.pushViewController(vc, animated: true)
-        
-        //let viewModel = RTViewModel(id: indexPath.row, squad: self.viewModel.squads)
-        //let vc = DetailSquadViewController(viewModel: viewModel)
-        //self.navigationController?.pushViewController(vc, animated: true)
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let detailviewModel = DetailRTViewModel(id: indexPath.row, rt: viewModel.rtData)
+        let vc = DetailRTViewController(viewModel: detailviewModel)
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }

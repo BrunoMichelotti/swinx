@@ -39,6 +39,9 @@
 		07F071302635F8FA009F0578 /* DetailLeadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0712E2635F8FA009F0578 /* DetailLeadsViewController.swift */; };
 		07F071312635F8FA009F0578 /* DetailLeadsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F0712F2635F8FA009F0578 /* DetailLeadsViewController.xib */; };
 		07F071332635FBE4009F0578 /* DetailLeadsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F071322635FBE4009F0578 /* DetailLeadsViewModel.swift */; };
+		07F0713B2636058B009F0578 /* DetailRTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F071392636058B009F0578 /* DetailRTViewController.swift */; };
+		07F0713C2636058B009F0578 /* DetailRTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F0713A2636058B009F0578 /* DetailRTViewController.xib */; };
+		07F0713E263605F9009F0578 /* DetailRTViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0713D263605F9009F0578 /* DetailRTViewModel.swift */; };
 		153C0C002635E7C7002A9F50 /* RTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153C0BFE2635E7C7002A9F50 /* RTViewController.swift */; };
 		153C0C012635E7C7002A9F50 /* RTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153C0BFF2635E7C7002A9F50 /* RTViewController.xib */; };
 		153C0C072635E881002A9F50 /* RTViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153C0C062635E881002A9F50 /* RTViewModel.swift */; };
@@ -104,6 +107,9 @@
 		07F0712E2635F8FA009F0578 /* DetailLeadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailLeadsViewController.swift; sourceTree = "<group>"; };
 		07F0712F2635F8FA009F0578 /* DetailLeadsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailLeadsViewController.xib; sourceTree = "<group>"; };
 		07F071322635FBE4009F0578 /* DetailLeadsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailLeadsViewModel.swift; sourceTree = "<group>"; };
+		07F071392636058B009F0578 /* DetailRTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRTViewController.swift; sourceTree = "<group>"; };
+		07F0713A2636058B009F0578 /* DetailRTViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailRTViewController.xib; sourceTree = "<group>"; };
+		07F0713D263605F9009F0578 /* DetailRTViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRTViewModel.swift; sourceTree = "<group>"; };
 		153C0BFE2635E7C7002A9F50 /* RTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTViewController.swift; sourceTree = "<group>"; };
 		153C0BFF2635E7C7002A9F50 /* RTViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RTViewController.xib; sourceTree = "<group>"; };
 		153C0C062635E881002A9F50 /* RTViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTViewModel.swift; sourceTree = "<group>"; };
@@ -500,13 +506,56 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		07F07134263604A2009F0578 /* ListRT */ = {
+			isa = PBXGroup;
+			children = (
+				152B19182635D76500E32628 /* Model */,
+				153C0BFD2635E7A2002A9F50 /* ViewController */,
+				153C0C042635E7DC002A9F50 /* View */,
+				153C0C052635E869002A9F50 /* ViewModel */,
+			);
+			path = ListRT;
+			sourceTree = "<group>";
+		};
+		07F07135263604FF009F0578 /* DetailRT */ = {
+			isa = PBXGroup;
+			children = (
+				07F071382636053D009F0578 /* View */,
+				07F071372636052E009F0578 /* ViewController */,
+				07F0713626360522009F0578 /* ViewModel */,
+			);
+			path = DetailRT;
+			sourceTree = "<group>";
+		};
+		07F0713626360522009F0578 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				07F0713D263605F9009F0578 /* DetailRTViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		07F071372636052E009F0578 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07F071392636058B009F0578 /* DetailRTViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		07F071382636053D009F0578 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07F0713A2636058B009F0578 /* DetailRTViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		152B19172635D71100E32628 /* RT */ = {
 			isa = PBXGroup;
 			children = (
-				153C0C052635E869002A9F50 /* ViewModel */,
-				153C0C042635E7DC002A9F50 /* View */,
-				153C0BFD2635E7A2002A9F50 /* RTViewController */,
-				152B19182635D76500E32628 /* Model */,
+				07F07135263604FF009F0578 /* DetailRT */,
+				07F07134263604A2009F0578 /* ListRT */,
 			);
 			path = RT;
 			sourceTree = "<group>";
@@ -564,12 +613,12 @@
 			path = DetailFunctionary;
 			sourceTree = "<group>";
 		};
-		153C0BFD2635E7A2002A9F50 /* RTViewController */ = {
+		153C0BFD2635E7A2002A9F50 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 				153C0BFE2635E7C7002A9F50 /* RTViewController.swift */,
 			);
-			path = RTViewController;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		153C0C042635E7DC002A9F50 /* View */ = {
@@ -710,6 +759,7 @@
 				406AEC402634A99400FCE112 /* HomeViewController.xib in Resources */,
 				07F070F52634AF16009F0578 /* BaseView.xib in Resources */,
 				07F071192635D3D1009F0578 /* SquadViewController.xib in Resources */,
+				07F0713C2636058B009F0578 /* DetailRTViewController.xib in Resources */,
 				07F070DF2634A1C0009F0578 /* RTs.json in Resources */,
 				07F0711B2635EE10009F0578 /* Leads.json in Resources */,
 				07F071272635F019009F0578 /* LeadViewController.xib in Resources */,
@@ -781,8 +831,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				153C0C002635E7C7002A9F50 /* RTViewController.swift in Sources */,
+				07F0713E263605F9009F0578 /* DetailRTViewModel.swift in Sources */,
 				07F0710D2635CB03009F0578 /* DetailSquadViewModel.swift in Sources */,
 				40E850FE2634C6B700D5D230 /* MainTabBarViewController.swift in Sources */,
+				07F0713B2636058B009F0578 /* DetailRTViewController.swift in Sources */,
 				154EEF3A263594610067E100 /* JSONDecoderAssist.swift in Sources */,
 				07F0710A2635CAAA009F0578 /* DetailSquadViewController.swift in Sources */,
 				154B55042634CA000063AE56 /* FunctionaryViewController.swift in Sources */,

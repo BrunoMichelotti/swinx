@@ -5,25 +5,66 @@
             "cordenador": "Ana Infante",
             "descricao_rt": "RT responsavel por todas as areas de pagamentos",
             "squad": [ {
-            "nome": "Transferencia",
-            "descricao": "squad responsavel pelo fluxo de transferencia e meus favorecidos",
-            "ltf": "Ronald",
-            "po": "Luiz",
-            "team_lead": "Daniela Ferraz",
-            "tech_lead": "Fabiana Harumi"
-        } ]
+                "nome": "Transferencia",
+                "descricao": "squad responsavel pelo fluxo de transferencia e meus favorecidos",
+                "ltf": "Ronald",
+                "po": "Luiz",
+                "team_lead": "Daniela Ferraz",
+                "tech_lead": "Fabiana Harumi",
+                "funcionarios": [ {
+                    "nome": "Any",
+                    "cod_projeto_jira": "3333",
+                    "pre": "12345",
+                    "funcional": "033311111",
+                    "RACF": "anyert",
+                    "email": "yyyy@everis.com",
+                    "squad_profissional": "Transferencia",
+                    "cargo": "SAN1"
+                },
+                {
+                    "nome": "Pedro",
+                    "cod_projeto_jira": "3333",
+                    "pre": "12345",
+                    "funcional": "033366666",
+                    "RACF": "rrggtyrr",
+                    "email": "aaa@everis.com",
+                    "squad_profissional": "Transferencia",
+                    "cargo": "SAN1"
+                }]
+            } ]
         },
         {
             "nome": "Governança",
+            "descricao_rt": "RT responsavel pela Home do App",
             "cordenador": "Israel",
             "squad": [ {
-            "nome": "Governança",
-            "descricao": "responsavel pela home PJ",
-            "ltf": "Ronald",
-            "po": "Bruna",
-            "team_lead": "Silvia",
-            "tech_lead": "Will"
-        } ]
+                "nome": "Governança",
+                "descricao": "responsavel pela home PJ",
+                "ltf": "Ronald",
+                "po": "Bruna",
+                "team_lead": "Silvia",
+                "tech_lead": "Will",
+                "funcionarios": [ {
+                    "nome": "Bruno",
+                    "cod_projeto_jira": "3333",
+                    "pre": "12345",
+                    "funcional": "033322222",
+                    "RACF": "brunjj",
+                    "email": "bruno@everis.com",
+                    "squad_profissional": "Governança",
+                    "cargo": "SAN1"
+                },
+                {
+                    "nome": "Bruno Rocca",
+                    "cod_projeto_jira": "3333",
+                    "pre": "12345",
+                    "funcional": "vfgyy",
+                    "RACF": "brunjjhh",
+                    "email": "roccay@everis.com",
+                    "squad_profissional": "Governança",
+                    "cargo": "SAN1"
+                }]
+            } ]
         }
         ]
     }
