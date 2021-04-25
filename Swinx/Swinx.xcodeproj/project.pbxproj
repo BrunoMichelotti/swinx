@@ -31,6 +31,9 @@
 		07F071142635D176009F0578 /* SquadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F071132635D176009F0578 /* SquadViewModel.swift */; };
 		07F071182635D3D1009F0578 /* SquadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F071162635D3D1009F0578 /* SquadViewController.swift */; };
 		07F071192635D3D1009F0578 /* SquadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F071172635D3D1009F0578 /* SquadViewController.xib */; };
+		153C0C002635E7C7002A9F50 /* RTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153C0BFE2635E7C7002A9F50 /* RTViewController.swift */; };
+		153C0C012635E7C7002A9F50 /* RTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153C0BFF2635E7C7002A9F50 /* RTViewController.xib */; };
+		153C0C072635E881002A9F50 /* RTViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153C0C062635E881002A9F50 /* RTViewModel.swift */; };
 		154B54ED2634B0CC0063AE56 /* RTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B54EC2634B0CC0063AE56 /* RTModel.swift */; };
 		154B54F12634B4EF0063AE56 /* SquadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B54F02634B4EF0063AE56 /* SquadModel.swift */; };
 		154B55042634CA000063AE56 /* FunctionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B55022634CA000063AE56 /* FunctionaryViewController.swift */; };
@@ -85,6 +88,9 @@
 		07F071132635D176009F0578 /* SquadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadViewModel.swift; sourceTree = "<group>"; };
 		07F071162635D3D1009F0578 /* SquadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadViewController.swift; sourceTree = "<group>"; };
 		07F071172635D3D1009F0578 /* SquadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SquadViewController.xib; sourceTree = "<group>"; };
+		153C0BFE2635E7C7002A9F50 /* RTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTViewController.swift; sourceTree = "<group>"; };
+		153C0BFF2635E7C7002A9F50 /* RTViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RTViewController.xib; sourceTree = "<group>"; };
+		153C0C062635E881002A9F50 /* RTViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTViewModel.swift; sourceTree = "<group>"; };
 		154B54EC2634B0CC0063AE56 /* RTModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTModel.swift; sourceTree = "<group>"; };
 		154B54F02634B4EF0063AE56 /* SquadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadModel.swift; sourceTree = "<group>"; };
 		154B55022634CA000063AE56 /* FunctionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionaryViewController.swift; sourceTree = "<group>"; };
@@ -182,7 +188,6 @@
 		07F070D126349CE6009F0578 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				154B54EB2634B07D0063AE56 /* Model */,
 				07F070D426349D01009F0578 /* ViewController */,
 				07F070D326349CFA009F0578 /* View */,
 				07F070D226349CEF009F0578 /* ViewModel */,
@@ -394,6 +399,9 @@
 		152B19172635D71100E32628 /* RT */ = {
 			isa = PBXGroup;
 			children = (
+				153C0C052635E869002A9F50 /* ViewModel */,
+				153C0C042635E7DC002A9F50 /* View */,
+				153C0BFD2635E7A2002A9F50 /* RTViewController */,
 				152B19182635D76500E32628 /* Model */,
 			);
 			path = RT;
@@ -452,11 +460,28 @@
 			path = DetailFunctionary;
 			sourceTree = "<group>";
 		};
-		154B54EB2634B07D0063AE56 /* Model */ = {
+		153C0BFD2635E7A2002A9F50 /* RTViewController */ = {
 			isa = PBXGroup;
 			children = (
+				153C0BFE2635E7C7002A9F50 /* RTViewController.swift */,
 			);
-			path = Model;
+			path = RTViewController;
+			sourceTree = "<group>";
+		};
+		153C0C042635E7DC002A9F50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				153C0BFF2635E7C7002A9F50 /* RTViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		153C0C052635E869002A9F50 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				153C0C062635E881002A9F50 /* RTViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		154EEF38263593EA0067E100 /* JsonDecoder */ = {
@@ -572,6 +597,7 @@
 			files = (
 				07F070F12634A74D009F0578 /* Functionary.json in Resources */,
 				07F070FD26358A90009F0578 /* DetailFunctionaryTableViewCell.xib in Resources */,
+				153C0C012635E7C7002A9F50 /* RTViewController.xib in Resources */,
 				07F0710B2635CAAA009F0578 /* DetailSquadViewController.xib in Resources */,
 				40E850F82634C6A400D5D230 /* CategoryCollectionViewCell.xib in Resources */,
 				07F070BA26346B71009F0578 /* LaunchScreen.storyboard in Resources */,
@@ -647,6 +673,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				153C0C002635E7C7002A9F50 /* RTViewController.swift in Sources */,
 				07F0710D2635CB03009F0578 /* DetailSquadViewModel.swift in Sources */,
 				40E850FE2634C6B700D5D230 /* MainTabBarViewController.swift in Sources */,
 				154EEF3A263594610067E100 /* JSONDecoderAssist.swift in Sources */,
@@ -665,6 +692,7 @@
 				07F070B026346B6F009F0578 /* SceneDelegate.swift in Sources */,
 				07F070F32634AF06009F0578 /* BaseView.swift in Sources */,
 				07F071142635D176009F0578 /* SquadViewModel.swift in Sources */,
+				153C0C072635E881002A9F50 /* RTViewModel.swift in Sources */,
 				07F071182635D3D1009F0578 /* SquadViewController.swift in Sources */,
 				07F0710026359743009F0578 /* DetailFunctionaryViewController.swift in Sources */,
 				07F070ED2634A649009F0578 /* FunctionaryViewModel.swift in Sources */,
